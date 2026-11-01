@@ -1,0 +1,13 @@
+node_modules/
+.npm-cache/
+android/.gradle/
+android/build/
+android/app/build/
+*.apk
+*.aab
+/.signing/
+/output/
+/sources/*.pdf
+/supabase/enroll-*-member.sql
+/supabase/tests/
+android/local.properties

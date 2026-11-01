@@ -1,0 +1,21 @@
+{
+  "name": "cocktail-diary",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "web:build": "esbuild ./src/supabase-entry.js --bundle --format=esm --minify --outfile=./web/supabase-sdk.js",
+    "android:sync": "npm run web:build && cap sync android",
+    "android:open": "cap open android",
+    "android:run": "cap run android"
+  },
+  "dependencies": {
+    "@capacitor/android": "^8.0.0",
+    "@capacitor/core": "^8.0.0",
+    "@supabase/supabase-js": "^2.118.0"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^8.0.0",
+    "esbuild": "^0.28.2"
+  }
+}

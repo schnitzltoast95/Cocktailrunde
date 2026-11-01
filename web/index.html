@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#f2f4f1">
+  <meta name="description" content="Cocktails wiederfinden und bewerten, auch ohne Internet.">
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="icon" href="./icon.svg?v=3" type="image/svg+xml">
+  <link rel="stylesheet" href="./style.css?v=16">
+  <title>Cocktailrunde</title>
+</head>
+<body>
+  <div class="app-shell">
+    <header class="app-header">
+      <div class="brand"><img src="./icon.svg?v=3" alt="" width="40" height="40"><span>Cocktailrunde</span></div>
+      <span class="connection" id="connection" role="status"></span>
+    </header>
+
+    <main id="main" tabindex="-1">
+      <section class="view" id="discover-view" aria-labelledby="discover-title">
+        <div class="page-heading"><h1 id="discover-title">Die Cocktailkarte</h1><p>Drinks aus euren Bars, mit euren Notizen direkt daneben.</p></div>
+        <div id="catalog-controls" hidden>
+          <label class="field-label" for="search">Cocktail suchen</label>
+          <input id="search" type="search" placeholder="Name oder Zutat" autocomplete="off">
+          <div class="filters" id="filters" aria-label="Filter"></div>
+        </div>
+        <div id="catalog-content"></div>
+      </section>
+
+      <section class="view" id="ratings-view" aria-labelledby="ratings-title" hidden>
+        <div class="page-heading"><h1 id="ratings-title">Meine Notizen</h1><p>Was du bestellt hast und wie es dir geschmeckt hat.</p></div>
+        <div id="ratings-content"></div>
+      </section>
+
+      <section class="view" id="group-view" aria-labelledby="group-title" hidden>
+        <div class="page-heading"><h1 id="group-title">Eure Gruppe</h1><p>Die Bewertungen deiner Freunde an einem Ort.</p></div>
+        <div id="group-unconfigured" hidden></div>
+        <div id="group-auth" hidden>
+          <form id="email-form" class="group-panel">
+            <h2>Mit E-Mail anmelden</h2>
+            <p>Melde dich mit E-Mail und Passwort an oder erstelle ein neues Konto.</p>
+            <label class="field-label" for="auth-email">E-Mail-Adresse</label>
+            <input id="auth-email" type="email" autocomplete="email" required>
+            <label class="field-label auth-password-label" for="auth-password">Passwort</label>
+            <input id="auth-password" type="password" autocomplete="current-password" minlength="8" required>
+            <button class="primary-button" type="submit">Anmelden</button>
+            <button class="secondary-button" id="sign-up" type="button">Neues Konto erstellen</button>
+            <p id="auth-info" class="group-message" role="status"></p>
+          </form>
+        </div>
+        <div id="group-signed-in" hidden>
+          <div class="group-panel">
+            <p class="account-line" id="account-email"></p>
+            <label class="field-label" for="author-name">Dein Name in der Gruppe</label>
+            <input id="author-name" maxlength="80" placeholder="Zum Beispiel Maria">
+            <p class="group-hint">Dieser Name wird neben deinen geteilten Bewertungen angezeigt.</p>
+            <div class="group-actions"><button id="sync-now" type="button">Jetzt abgleichen</button><button id="sign-out" type="button">Abmelden</button></div>
+          </div>
+          <p id="group-message" class="group-message" role="status"></p>
+          <form id="join-form" class="group-panel group-feature">
+            <h2>Freundesgruppe beitreten</h2>
+            <p>Frag ein Mitglied nach einem Einladungscode und füge ihn hier ein. Dafür brauchst du kurz Internet.</p>
+            <label class="field-label" for="invite-input">Einladungscode</label>
+            <input id="invite-input" type="text" inputmode="text" autocomplete="off" autocapitalize="characters" spellcheck="false" maxlength="39" placeholder="Code einfügen" required>
+            <button class="secondary-button" type="submit">Gruppe beitreten</button>
+          </form>
+          <section id="member-panel" class="group-panel group-feature" hidden aria-labelledby="member-heading">
+            <h2 id="member-heading">Mitglieder</h2>
+            <ul id="member-list" class="member-list"></ul>
+            <button id="create-invite" class="secondary-button" type="button">Freund einladen</button>
+            <div id="invite-result" hidden>
+              <p class="group-hint">Dieser Code gilt sieben Tage oder für zehn Beitritte. Ein neuer Code ersetzt deinen bisherigen.</p>
+              <div class="invite-code-row"><output id="invite-code" aria-label="Einladungscode"></output><button id="copy-invite" type="button">Kopieren</button></div>
+            </div>
+            <button id="leave-group" class="text-button" type="button">Gruppe verlassen</button>
+          </section>
+          <button id="share-local" class="share-button" type="button" hidden></button>
+          <div id="group-feed"></div>
+        </div>
+        <p id="auth-error" class="form-error" role="alert" hidden></p>
+      </section>
+    </main>
+
+    <nav class="bottom-nav" aria-label="Hauptnavigation">
+      <button type="button" class="nav-item active" data-view="discover" aria-current="page"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m16 16 5 5"/></svg><span>Karte</span></button>
+      <button type="button" class="nav-item" data-view="ratings"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 3h14v18l-7-4-7 4V3Z"/></svg><span>Meine Notizen</span></button>
+      <button type="button" class="nav-item" data-view="group"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="8" cy="8" r="3"/><circle cx="17" cy="9" r="2.5"/><path d="M2 20c0-4 2.5-6 6-6s6 2 6 6M14 15c4-1 8 1 8 5"/></svg><span>Gruppe</span></button>
+    </nav>
+  </div>
+
+  <dialog id="rating-dialog" aria-labelledby="rating-title">
+    <form id="rating-form" method="dialog">
+      <div class="dialog-top"><div><p class="dialog-bar" id="rating-bar"></p><h2 id="rating-title"></h2></div><button class="icon-button" type="button" id="close-dialog" aria-label="Schließen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 5 19 19M19 5 5 19"/></svg></button></div>
+      <section id="drink-notes" class="dialog-notes" hidden aria-labelledby="drink-notes-title"><h3 id="drink-notes-title">Eure Notizen</h3><div id="drink-notes-list"></div></section>
+      <label class="field-label" for="liked">Wie war er insgesamt?</label>
+      <select id="liked" name="liked" required><option value="">Bitte wählen</option><option value="yes">Hat geschmeckt</option><option value="mixed">War okay</option><option value="no">Nicht mein Fall</option></select>
+      <div id="variant-field" hidden><label class="field-label" for="variant">Welche Frucht?</label><select id="variant" name="variant"><option value="">Bitte wählen</option><option>Banana</option><option>Peach</option><option>Pineapple</option><option>Strawberry</option><option>Watermelon</option></select></div>
+      <div class="dimensions" id="dimensions"></div>
+      <label class="field-label" for="note">Notiz <span class="optional">optional</span></label>
+      <textarea id="note" name="note" rows="3" maxlength="500" placeholder="Was möchtest du dir merken?"></textarea>
+      <p id="form-error" class="form-error" role="alert" hidden></p>
+      <button type="submit" class="primary-button">Bewertung speichern</button>
+    </form>
+  </dialog>
+
+  <script type="module" src="./app.js?v=14"></script>
+</body>
+</html>

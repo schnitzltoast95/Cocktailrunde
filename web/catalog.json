@@ -1,0 +1,3054 @@
+{
+  "schemaVersion": 1,
+  "bars": [
+    {
+      "id": "fuego-wuerzburg",
+      "name": "Fuego",
+      "city": "Würzburg",
+      "sources": [
+        {
+          "file": "Cocktaikarte-Fuego-2026-1.pdf",
+          "version": "2026-1"
+        }
+      ]
+    }
+  ],
+  "cocktails": [
+    {
+      "id": "fuego-amaretto-sour",
+      "barId": "fuego-wuerzburg",
+      "name": "Amaretto Sour",
+      "category": "Sours",
+      "description": "Amaretto, Zucker, Zitronen- &Orangensaft",
+      "priceEuro": 7.9,
+      "ingredientTags": [
+        "Orange",
+        "Zitrone"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 4
+      }
+    },
+    {
+      "id": "fuego-aperol-sour",
+      "barId": "fuego-wuerzburg",
+      "name": "Aperol Sour",
+      "category": "Sours",
+      "description": "Aperol, Zucker, Zitronen-& Orangensaft",
+      "priceEuro": 7.9,
+      "ingredientTags": [
+        "Orange",
+        "Zitrone"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 4
+      }
+    },
+    {
+      "id": "fuego-southern-comfort-sour",
+      "barId": "fuego-wuerzburg",
+      "name": "Southern Comfort Sour",
+      "category": "Sours",
+      "description": "Southern Comfort, Cointreau, Zucker, Angostura, Zitronen- & Orangensaft",
+      "priceEuro": 7.9,
+      "ingredientTags": [
+        "Orange",
+        "Zitrone"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 4
+      }
+    },
+    {
+      "id": "fuego-tequila-sour",
+      "barId": "fuego-wuerzburg",
+      "name": "Tequila Sour",
+      "category": "Sours",
+      "description": "Tequila, Zucker, Zitronensaft",
+      "priceEuro": 7.9,
+      "ingredientTags": [
+        "Tequila",
+        "Zitrone"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 4
+      }
+    },
+    {
+      "id": "fuego-whiskey-sour",
+      "barId": "fuego-wuerzburg",
+      "name": "Whiskey Sour",
+      "category": "Sours",
+      "description": "Whiskey, Zucker, Zitronensaft",
+      "priceEuro": 7.9,
+      "ingredientTags": [
+        "Whiskey",
+        "Zitrone"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 4
+      }
+    },
+    {
+      "id": "fuego-vodka-sour",
+      "barId": "fuego-wuerzburg",
+      "name": "Vodka Sour",
+      "category": "Sours",
+      "description": "Vodka, Zucker, Zitronensaft",
+      "priceEuro": 7.9,
+      "ingredientTags": [
+        "Vodka",
+        "Zitrone"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 4
+      }
+    },
+    {
+      "id": "fuego-mojito",
+      "barId": "fuego-wuerzburg",
+      "name": "Mojito",
+      "category": "Mojitos & Juleps",
+      "description": "Weißer Rum, Lime Juice, Rohrzucker, Minze, Limette, Soda",
+      "priceEuro": 8.8,
+      "ingredientTags": [
+        "Rum",
+        "Limette",
+        "Minze"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 4
+      }
+    },
+    {
+      "id": "fuego-mojito-royal",
+      "barId": "fuego-wuerzburg",
+      "name": "Mojito Royal",
+      "category": "Mojitos & Juleps",
+      "description": "Weißer Rum, Minze, Champagner Lime Juice, Limette, Rohrzucker",
+      "priceEuro": 8.8,
+      "ingredientTags": [
+        "Rum",
+        "Champagner",
+        "Limette",
+        "Minze"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 4
+      }
+    },
+    {
+      "id": "fuego-mint-julep",
+      "barId": "fuego-wuerzburg",
+      "name": "Mint Julep",
+      "category": "Mojitos & Juleps",
+      "description": "Bourbon Whiskey, Brandy, Minze Limette, Lime Juice, Rohrzucker, Soda",
+      "priceEuro": 8.8,
+      "ingredientTags": [
+        "Whiskey",
+        "Brandy",
+        "Limette",
+        "Minze"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 4
+      }
+    },
+    {
+      "id": "fuego-brandy-julep",
+      "barId": "fuego-wuerzburg",
+      "name": "Brandy Julep",
+      "category": "Mojitos & Juleps",
+      "description": "Brandy, brauner Rum, Limette, Lime Minze Juice, Rohzucker, Soda",
+      "priceEuro": 8.8,
+      "ingredientTags": [
+        "Rum",
+        "Brandy",
+        "Limette",
+        "Minze"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 4
+      }
+    },
+    {
+      "id": "fuego-champagner-julep",
+      "barId": "fuego-wuerzburg",
+      "name": "Champagner Julep",
+      "category": "Mojitos & Juleps",
+      "description": "Champagner, Cognac, Limette, LimeJuice, Rohrzucker",
+      "priceEuro": 8.8,
+      "ingredientTags": [
+        "Brandy",
+        "Champagner",
+        "Limette"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 4
+      }
+    },
+    {
+      "id": "fuego-mai-tai",
+      "barId": "fuego-wuerzburg",
+      "name": "Mai Tai",
+      "category": "Mai Tai",
+      "description": "Drei Sorten Rum, Dry Orange, Lime Juice, Mandelsirup, Zitronensaft",
+      "priceEuro": 8.8,
+      "ingredientTags": [
+        "Rum",
+        "Orange",
+        "Zitrone",
+        "Limette"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 4
+      }
+    },
+    {
+      "id": "fuego-k-g-b",
+      "barId": "fuego-wuerzburg",
+      "name": "K.G.B.",
+      "category": "Mai Tai",
+      "description": "Drei Sorten Vodka, Triple Sec, Lime Juice, Mandelsirup, Grenadine, Zitronensaft",
+      "priceEuro": 8.8,
+      "ingredientTags": [
+        "Vodka",
+        "Zitrone",
+        "Limette"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 4
+      }
+    },
+    {
+      "id": "fuego-salsa",
+      "barId": "fuego-wuerzburg",
+      "name": "Salsa",
+      "category": "Mai Tai",
+      "description": "Weißer & brauner Tequila, Mandelsirup, Triple Sec, Lime Juice, Zitronensaft",
+      "priceEuro": 8.8,
+      "ingredientTags": [
+        "Tequila",
+        "Zitrone",
+        "Limette"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 4
+      }
+    },
+    {
+      "id": "fuego-atlantic-blue",
+      "barId": "fuego-wuerzburg",
+      "name": "Atlantic Blue",
+      "category": "Alkoholfrei",
+      "description": "Zitronen-, Bananen-, Maracuja- & Ananassaft, Blue Curacao Sirup",
+      "priceEuro": 6.9,
+      "ingredientTags": [
+        "Alkoholfrei",
+        "Ananas",
+        "Zitrone",
+        "Maracuja",
+        "Banane"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 5
+      }
+    },
+    {
+      "id": "fuego-bali",
+      "barId": "fuego-wuerzburg",
+      "name": "Bali",
+      "category": "Alkoholfrei",
+      "description": "Ananas-, Zitronen- & Maracujasaft, Soda",
+      "priceEuro": 6.9,
+      "ingredientTags": [
+        "Alkoholfrei",
+        "Ananas",
+        "Zitrone",
+        "Maracuja"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 5
+      }
+    },
+    {
+      "id": "fuego-banana-summer-dream",
+      "barId": "fuego-wuerzburg",
+      "name": "Banana Summer Dream",
+      "category": "Alkoholfrei",
+      "description": "Bananensirup, Milch, Lime Juice, Banane, Ananassaft",
+      "priceEuro": 6.9,
+      "ingredientTags": [
+        "Alkoholfrei",
+        "Ananas",
+        "Limette",
+        "Banane",
+        "Milch & Sahne"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 5
+      }
+    },
+    {
+      "id": "fuego-berry-mai-tai",
+      "barId": "fuego-wuerzburg",
+      "name": "Berry Mai Tai",
+      "category": "Alkoholfrei",
+      "description": "Kokossahne, Cranberry Juice, Ananas- & Orangensaft",
+      "priceEuro": 7.9,
+      "ingredientTags": [
+        "Alkoholfrei",
+        "Ananas",
+        "Orange",
+        "Cranberry",
+        "Kokos",
+        "Milch & Sahne"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 5
+      }
+    },
+    {
+      "id": "fuego-bingo",
+      "barId": "fuego-wuerzburg",
+      "name": "Bingo",
+      "category": "Alkoholfrei",
+      "description": "Zitronen- & Pfirsichsaft, Erdbeermark, Tonic Water",
+      "priceEuro": 7.9,
+      "ingredientTags": [
+        "Alkoholfrei",
+        "Zitrone",
+        "Erdbeere",
+        "Pfirsich"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 5
+      }
+    },
+    {
+      "id": "fuego-caipi-ginger",
+      "barId": "fuego-wuerzburg",
+      "name": "Caipi Ginger",
+      "category": "Alkoholfrei",
+      "description": "Limetten, Rohrzucker, Lime Juice, Ginger Ale",
+      "priceEuro": 6.9,
+      "ingredientTags": [
+        "Alkoholfrei",
+        "Limette"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 5
+      }
+    },
+    {
+      "id": "fuego-coco-choco",
+      "barId": "fuego-wuerzburg",
+      "name": "Coco Choco",
+      "category": "Alkoholfrei",
+      "description": "Kokossahne, Schokosirup, Milch",
+      "priceEuro": 7.9,
+      "ingredientTags": [
+        "Alkoholfrei",
+        "Kokos",
+        "Schokolade",
+        "Milch & Sahne"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 5
+      }
+    },
+    {
+      "id": "fuego-five-fruit-cocktail",
+      "barId": "fuego-wuerzburg",
+      "name": "Five Fruit Cocktail",
+      "category": "Alkoholfrei",
+      "description": "Zitronen-, Orangen-, Ananas- & Maracujasaft, Grenadine, Mangosirup",
+      "priceEuro": 6.9,
+      "ingredientTags": [
+        "Alkoholfrei",
+        "Ananas",
+        "Orange",
+        "Zitrone",
+        "Maracuja",
+        "Mango"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 5
+      }
+    },
+    {
+      "id": "fuego-fantasy-island",
+      "barId": "fuego-wuerzburg",
+      "name": "Fantasy Island",
+      "category": "Alkoholfrei",
+      "description": "Zitronen-, Ananas- & Orangensaft Lime Juice, Bananen- & Mangosirup",
+      "priceEuro": 6.9,
+      "ingredientTags": [
+        "Alkoholfrei",
+        "Ananas",
+        "Orange",
+        "Zitrone",
+        "Limette",
+        "Banane",
+        "Mango"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 5
+      }
+    },
+    {
+      "id": "fuego-hawaii-blue",
+      "barId": "fuego-wuerzburg",
+      "name": "Hawaii Blue",
+      "category": "Alkoholfrei",
+      "description": "Ananas-, Maracuja- & Grapefruitsaft, Blue Curacao Sirup",
+      "priceEuro": 6.9,
+      "ingredientTags": [
+        "Alkoholfrei",
+        "Ananas",
+        "Maracuja",
+        "Grapefruit"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 5
+      }
+    },
+    {
+      "id": "fuego-leo-s",
+      "barId": "fuego-wuerzburg",
+      "name": "Leo's",
+      "category": "Alkoholfrei",
+      "description": "Zitronen- &Orangensaft, Grenadine, Mandelsirup, Soda",
+      "priceEuro": 6.9,
+      "ingredientTags": [
+        "Alkoholfrei",
+        "Orange",
+        "Zitrone"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 5
+      }
+    },
+    {
+      "id": "fuego-nana-s",
+      "barId": "fuego-wuerzburg",
+      "name": "Nana's",
+      "category": "Alkoholfrei",
+      "description": "Ananas-, Kirsch- & Pfirsichsaft, Soda",
+      "priceEuro": 6.9,
+      "ingredientTags": [
+        "Alkoholfrei",
+        "Ananas",
+        "Pfirsich",
+        "Kirsche"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 5
+      }
+    },
+    {
+      "id": "fuego-orange-velvet",
+      "barId": "fuego-wuerzburg",
+      "name": "Orange Velvet",
+      "category": "Alkoholfrei",
+      "description": "Ananas- & Orangensaft, Maracujasirup, Sahne",
+      "priceEuro": 6.9,
+      "ingredientTags": [
+        "Alkoholfrei",
+        "Ananas",
+        "Orange",
+        "Maracuja",
+        "Milch & Sahne"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 5
+      }
+    },
+    {
+      "id": "fuego-shirley-temple",
+      "barId": "fuego-wuerzburg",
+      "name": "Shirley Temple",
+      "category": "Alkoholfrei",
+      "description": "Zitronen- & Kirschsaft, Ginger Ale",
+      "priceEuro": 6.9,
+      "ingredientTags": [
+        "Alkoholfrei",
+        "Zitrone",
+        "Kirsche"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 5
+      }
+    },
+    {
+      "id": "fuego-strawberry-kiss",
+      "barId": "fuego-wuerzburg",
+      "name": "Strawberry Kiss",
+      "category": "Alkoholfrei",
+      "description": "Kokossahne, Ananassaft, Erdbeermark",
+      "priceEuro": 7.9,
+      "ingredientTags": [
+        "Alkoholfrei",
+        "Ananas",
+        "Erdbeere",
+        "Kokos",
+        "Milch & Sahne"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 5
+      }
+    },
+    {
+      "id": "fuego-virgin-mojito",
+      "barId": "fuego-wuerzburg",
+      "name": "Virgin Mojito",
+      "category": "Alkoholfrei",
+      "description": "Minze, Limetten, Lime Juice, Rohrzucker, Tonic Water",
+      "priceEuro": 6.9,
+      "ingredientTags": [
+        "Alkoholfrei",
+        "Limette",
+        "Minze"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 5
+      }
+    },
+    {
+      "id": "fuego-virgin-pina",
+      "barId": "fuego-wuerzburg",
+      "name": "Virgin Pina",
+      "category": "Alkoholfrei",
+      "description": "Kokossahne, Ananas- & Orangensaft",
+      "priceEuro": 7.9,
+      "ingredientTags": [
+        "Alkoholfrei",
+        "Ananas",
+        "Orange",
+        "Kokos",
+        "Milch & Sahne"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 5
+      }
+    },
+    {
+      "id": "fuego-bourbon-highball",
+      "barId": "fuego-wuerzburg",
+      "name": "Bourbon Highball",
+      "category": "Special Longdrinks",
+      "description": "Bourbon Whiskey, Ginger Ale",
+      "priceEuro": 7.9,
+      "ingredientTags": [
+        "Whiskey"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 6
+      }
+    },
+    {
+      "id": "fuego-cuba-libre",
+      "barId": "fuego-wuerzburg",
+      "name": "Cuba Libre",
+      "category": "Special Longdrinks",
+      "description": "Havana 3 Jahre, Limetten, Cola",
+      "priceEuro": 7.9,
+      "ingredientTags": [
+        "Rum",
+        "Limette"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 6
+      }
+    },
+    {
+      "id": "fuego-cuba-perfect",
+      "barId": "fuego-wuerzburg",
+      "name": "Cuba Perfect",
+      "category": "Special Longdrinks",
+      "description": "Havana 3 Jahre, Limetten, Sprite",
+      "priceEuro": 7.9,
+      "ingredientTags": [
+        "Rum",
+        "Limette"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 6
+      }
+    },
+    {
+      "id": "fuego-el-diabolo",
+      "barId": "fuego-wuerzburg",
+      "name": "El Diabolo",
+      "category": "Special Longdrinks",
+      "description": "Tequilla, Crème de Cassis, Limette, Ginger Ale",
+      "priceEuro": 7.9,
+      "ingredientTags": [
+        "Tequila",
+        "Limette"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 6
+      }
+    },
+    {
+      "id": "fuego-lumumba",
+      "barId": "fuego-wuerzburg",
+      "name": "Lumumba",
+      "category": "Special Longdrinks",
+      "description": "Brauner Rum, kalter Kakao",
+      "priceEuro": 7.9,
+      "ingredientTags": [
+        "Rum",
+        "Schokolade"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 6
+      }
+    },
+    {
+      "id": "fuego-moscow-mule",
+      "barId": "fuego-wuerzburg",
+      "name": "Moscow Mule",
+      "category": "Special Longdrinks",
+      "description": "Vodka,Gurke, Spicy Ginger",
+      "priceEuro": 7.9,
+      "ingredientTags": [
+        "Vodka"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 6
+      }
+    },
+    {
+      "id": "fuego-munich-mule",
+      "barId": "fuego-wuerzburg",
+      "name": "Munich Mule",
+      "category": "Special Longdrinks",
+      "description": "Gin,Gurke, Spicy Ginger",
+      "priceEuro": 7.9,
+      "ingredientTags": [
+        "Gin"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 6
+      }
+    },
+    {
+      "id": "fuego-sea-breeze",
+      "barId": "fuego-wuerzburg",
+      "name": "Sea Breeze",
+      "category": "Special Longdrinks",
+      "description": "Vodka, Grapefruitsaft, Cranberry Juice",
+      "priceEuro": 7.9,
+      "ingredientTags": [
+        "Vodka",
+        "Cranberry",
+        "Grapefruit"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 6
+      }
+    },
+    {
+      "id": "fuego-lillet-blanc",
+      "barId": "fuego-wuerzburg",
+      "name": "Lillet Blanc",
+      "category": "Special Longdrinks",
+      "description": "Lillet, Ginger Ale, Limette",
+      "priceEuro": 7.9,
+      "ingredientTags": [
+        "Limette"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 6
+      }
+    },
+    {
+      "id": "fuego-asbach-cola",
+      "barId": "fuego-wuerzburg",
+      "name": "Asbach Cola",
+      "category": "Longdrinks",
+      "description": "",
+      "priceEuro": 7.9,
+      "ingredientTags": [],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 6
+      }
+    },
+    {
+      "id": "fuego-bacardi-cola",
+      "barId": "fuego-wuerzburg",
+      "name": "Bacardi Cola",
+      "category": "Longdrinks",
+      "description": "",
+      "priceEuro": 7.9,
+      "ingredientTags": [
+        "Rum"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 6
+      }
+    },
+    {
+      "id": "fuego-bacardi-orange",
+      "barId": "fuego-wuerzburg",
+      "name": "Bacardi Orange",
+      "category": "Longdrinks",
+      "description": "",
+      "priceEuro": 7.9,
+      "ingredientTags": [
+        "Rum",
+        "Orange"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 6
+      }
+    },
+    {
+      "id": "fuego-batida-kirsch",
+      "barId": "fuego-wuerzburg",
+      "name": "Batida Kirsch",
+      "category": "Longdrinks",
+      "description": "",
+      "priceEuro": 7.9,
+      "ingredientTags": [
+        "Kirsche",
+        "Kokos"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 6
+      }
+    },
+    {
+      "id": "fuego-gin-tonic",
+      "barId": "fuego-wuerzburg",
+      "name": "Gin Tonic",
+      "category": "Longdrinks",
+      "description": "",
+      "priceEuro": 7.9,
+      "ingredientTags": [
+        "Gin"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 6
+      }
+    },
+    {
+      "id": "fuego-jack-daniels-cola",
+      "barId": "fuego-wuerzburg",
+      "name": "Jack Daniels Cola",
+      "category": "Longdrinks",
+      "description": "",
+      "priceEuro": 7.9,
+      "ingredientTags": [
+        "Whiskey"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 6
+      }
+    },
+    {
+      "id": "fuego-licor-43-mit-milch",
+      "barId": "fuego-wuerzburg",
+      "name": "Licor 43 mit Milch",
+      "category": "Longdrinks",
+      "description": "",
+      "priceEuro": 7.9,
+      "ingredientTags": [
+        "Milch & Sahne"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 6
+      }
+    },
+    {
+      "id": "fuego-vodka-orange",
+      "barId": "fuego-wuerzburg",
+      "name": "Vodka Orange",
+      "category": "Longdrinks",
+      "description": "",
+      "priceEuro": 7.9,
+      "ingredientTags": [
+        "Vodka",
+        "Orange"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 6
+      }
+    },
+    {
+      "id": "fuego-jagermeister-red-bull",
+      "barId": "fuego-wuerzburg",
+      "name": "Jägermeister Red Bull",
+      "category": "Red Bull",
+      "description": "",
+      "priceEuro": 9.9,
+      "ingredientTags": [],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 6
+      }
+    },
+    {
+      "id": "fuego-prosecco-red-bull",
+      "barId": "fuego-wuerzburg",
+      "name": "Prosecco Red Bull",
+      "category": "Red Bull",
+      "description": "",
+      "priceEuro": 9.9,
+      "ingredientTags": [
+        "Prosecco"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 6
+      }
+    },
+    {
+      "id": "fuego-vodka-red-bull",
+      "barId": "fuego-wuerzburg",
+      "name": "Vodka Red Bull",
+      "category": "Red Bull",
+      "description": "",
+      "priceEuro": 9.9,
+      "ingredientTags": [
+        "Vodka"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 6
+      }
+    },
+    {
+      "id": "fuego-classic-daiquiri",
+      "barId": "fuego-wuerzburg",
+      "name": "Classic Daiquiri",
+      "category": "Daiquiris",
+      "description": "Weißer Rum, Zucker, Zitronensaft",
+      "priceEuro": 7.9,
+      "ingredientTags": [
+        "Rum",
+        "Zitrone"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 7
+      }
+    },
+    {
+      "id": "fuego-fruit-daiquiri",
+      "barId": "fuego-wuerzburg",
+      "name": "Fruit Daiquiri",
+      "category": "Daiquiris",
+      "description": "Weißer Rum, Zucker, Zitronensaft nach Frucht Eurer Wahl: Banana, Peach, Pineapple, Strawberry, Watermelon",
+      "priceEuro": 7.9,
+      "ingredientTags": [
+        "Rum",
+        "Ananas",
+        "Zitrone",
+        "Erdbeere",
+        "Banane",
+        "Pfirsich",
+        "Apfel"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 7
+      }
+    },
+    {
+      "id": "fuego-frozen-daiquiri",
+      "barId": "fuego-wuerzburg",
+      "name": "Frozen Daiquiri",
+      "category": "Daiquiris",
+      "description": "Weißer Rum, Zucker, Zitronensaft",
+      "priceEuro": 7.9,
+      "ingredientTags": [
+        "Rum",
+        "Zitrone"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 7
+      }
+    },
+    {
+      "id": "fuego-frozen-fruit-daiquiri",
+      "barId": "fuego-wuerzburg",
+      "name": "Frozen Fruit Daiquiri",
+      "category": "Daiquiris",
+      "description": "Weißer Rum, Zucker, Zitronensaft nach Frucht Eurer Wahl: Banana, Peach, Pineapple, Strawberry, Watermelon",
+      "priceEuro": 7.9,
+      "ingredientTags": [
+        "Rum",
+        "Ananas",
+        "Zitrone",
+        "Erdbeere",
+        "Banane",
+        "Pfirsich",
+        "Apfel"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 7
+      }
+    },
+    {
+      "id": "fuego-classic-margarita",
+      "barId": "fuego-wuerzburg",
+      "name": "Classic Margarita",
+      "category": "Margaritas",
+      "description": "Tequila, Cointreau, Zitronensaft",
+      "priceEuro": 7.9,
+      "ingredientTags": [
+        "Tequila",
+        "Zitrone"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 7
+      }
+    },
+    {
+      "id": "fuego-fruit-margarita",
+      "barId": "fuego-wuerzburg",
+      "name": "Fruit Margarita",
+      "category": "Margaritas",
+      "description": "Tequila, Cointreau, Zitronensaft nach Frucht Eurer Wahl: Banana, Peach, Pineapple, Strawberry, Watermelon",
+      "priceEuro": 7.9,
+      "ingredientTags": [
+        "Tequila",
+        "Ananas",
+        "Zitrone",
+        "Erdbeere",
+        "Banane",
+        "Pfirsich",
+        "Apfel"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 7
+      }
+    },
+    {
+      "id": "fuego-frozen-margarita",
+      "barId": "fuego-wuerzburg",
+      "name": "Frozen Margarita",
+      "category": "Margaritas",
+      "description": "Tequila, Cointreau, Zitronensaft",
+      "priceEuro": 7.9,
+      "ingredientTags": [
+        "Tequila",
+        "Zitrone"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 7
+      }
+    },
+    {
+      "id": "fuego-frozen-fruitmargarita",
+      "barId": "fuego-wuerzburg",
+      "name": "Frozen FruitMargarita",
+      "category": "Margaritas",
+      "description": "Tequila, Cointreau, Zitronensaft nach Frucht Eurer Wahl: Banana, Peach, Pineapple, Strawberry, Watermelon",
+      "priceEuro": 7.9,
+      "ingredientTags": [
+        "Tequila",
+        "Ananas",
+        "Zitrone",
+        "Erdbeere",
+        "Banane",
+        "Pfirsich",
+        "Apfel"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 7
+      }
+    },
+    {
+      "id": "fuego-caipirinha",
+      "barId": "fuego-wuerzburg",
+      "name": "Caipirinha",
+      "category": "Caipirinhas",
+      "description": "Cachaca, Limetten, Rohrzucker, Lime Juice",
+      "priceEuro": 8.4,
+      "ingredientTags": [
+        "Limette"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 7
+      }
+    },
+    {
+      "id": "fuego-caipirange",
+      "barId": "fuego-wuerzburg",
+      "name": "Caipirange",
+      "category": "Caipirinhas",
+      "description": "Vodka, Orangen, Rohrzucker,Lime Juice",
+      "priceEuro": 8.4,
+      "ingredientTags": [
+        "Vodka",
+        "Orange",
+        "Limette"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 7
+      }
+    },
+    {
+      "id": "fuego-caipirissma",
+      "barId": "fuego-wuerzburg",
+      "name": "Caipirissma",
+      "category": "Caipirinhas",
+      "description": "Weißer Rum, Limetten, Rohrzucker, Lime Juice",
+      "priceEuro": 8.4,
+      "ingredientTags": [
+        "Rum",
+        "Limette"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 7
+      }
+    },
+    {
+      "id": "fuego-caipirol",
+      "barId": "fuego-wuerzburg",
+      "name": "Caipirol",
+      "category": "Caipirinhas",
+      "description": "Aperol, Orangen, Rohrzucker, Lime Juice, Grapefruitsaft",
+      "priceEuro": 8.4,
+      "ingredientTags": [
+        "Orange",
+        "Limette",
+        "Grapefruit"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 7
+      }
+    },
+    {
+      "id": "fuego-caipiroska",
+      "barId": "fuego-wuerzburg",
+      "name": "Caipiroska",
+      "category": "Caipirinhas",
+      "description": "Vodka, Limetten, Rohrzucker, Lime Juice",
+      "priceEuro": 8.4,
+      "ingredientTags": [
+        "Vodka",
+        "Limette"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 7
+      }
+    },
+    {
+      "id": "fuego-caipisecco",
+      "barId": "fuego-wuerzburg",
+      "name": "Caipisecco",
+      "category": "Caipirinhas",
+      "description": "Prosecco, Limetten, Rohrzucker, Lime Juice",
+      "priceEuro": 8.4,
+      "ingredientTags": [
+        "Prosecco",
+        "Limette"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 7
+      }
+    },
+    {
+      "id": "fuego-comfort-caipirinha",
+      "barId": "fuego-wuerzburg",
+      "name": "Comfort Caipirinha",
+      "category": "Caipirinhas",
+      "description": "Southern Comfort, Limetten, Rohrzucker, Lime Juice",
+      "priceEuro": 8.4,
+      "ingredientTags": [
+        "Limette"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 7
+      }
+    },
+    {
+      "id": "fuego-cuban-iced-tea",
+      "barId": "fuego-wuerzburg",
+      "name": "Cuban Iced Tea",
+      "category": "Iced Teas",
+      "description": "Weißer & brauner Rum, Apricot Brandy, Cola",
+      "priceEuro": 9.6,
+      "ingredientTags": [
+        "Rum",
+        "Brandy"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 8
+      }
+    },
+    {
+      "id": "fuego-hawaiian-iced-tea",
+      "barId": "fuego-wuerzburg",
+      "name": "Hawaiian Iced Tea",
+      "category": "Iced Teas",
+      "description": "Gin, Rum, Tequila, Vodka, Triple Sec , Blue Curacao, Zucker, Zitronensaft, Sprite",
+      "priceEuro": 9.6,
+      "ingredientTags": [
+        "Gin",
+        "Rum",
+        "Vodka",
+        "Tequila",
+        "Zitrone"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 8
+      }
+    },
+    {
+      "id": "fuego-long-beach-iced-tea",
+      "barId": "fuego-wuerzburg",
+      "name": "Long Beach Iced Tea",
+      "category": "Iced Teas",
+      "description": "Gin, Rum, Tequila, Vodka, Triple Sec, Zucker, Zitronensaft, Cranberry Juice",
+      "priceEuro": 9.6,
+      "ingredientTags": [
+        "Gin",
+        "Rum",
+        "Vodka",
+        "Tequila",
+        "Zitrone",
+        "Cranberry"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 8
+      }
+    },
+    {
+      "id": "fuego-long-island-iced-tea",
+      "barId": "fuego-wuerzburg",
+      "name": "Long Island Iced Tea",
+      "category": "Iced Teas",
+      "description": "Gin, Rum, Tequila, Vodka, Triple Sec, Zucker, Zitronensaft, Cola",
+      "priceEuro": 9.6,
+      "ingredientTags": [
+        "Gin",
+        "Rum",
+        "Vodka",
+        "Tequila",
+        "Zitrone"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 8
+      }
+    },
+    {
+      "id": "fuego-waikiki-iced-tea",
+      "barId": "fuego-wuerzburg",
+      "name": "Waikiki Iced Tea",
+      "category": "Iced Teas",
+      "description": "Gin, Rum, Tequila, Vodka, Triple Sec, Zucker, Zitronen- & Orangensaft",
+      "priceEuro": 9.6,
+      "ingredientTags": [
+        "Gin",
+        "Rum",
+        "Vodka",
+        "Tequila",
+        "Orange",
+        "Zitrone"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 8
+      }
+    },
+    {
+      "id": "fuego-bloody-mary",
+      "barId": "fuego-wuerzburg",
+      "name": "Bloody Mary",
+      "category": "Vodka",
+      "description": "Vodka,Tomatensaft, Salz, Pfeffer, Tabasco, Worcester Sauce, Zitronensaft",
+      "priceEuro": 8.4,
+      "ingredientTags": [
+        "Vodka",
+        "Zitrone"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 8
+      }
+    },
+    {
+      "id": "fuego-marie-jo",
+      "barId": "fuego-wuerzburg",
+      "name": "Marie Jo",
+      "category": "Vodka",
+      "description": "Vodka, Prosecco, Erdbeermark, Zitronen- & Pfirsichsaft",
+      "priceEuro": 8.4,
+      "ingredientTags": [
+        "Vodka",
+        "Prosecco",
+        "Zitrone",
+        "Erdbeere",
+        "Pfirsich"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 8
+      }
+    },
+    {
+      "id": "fuego-orgasmus",
+      "barId": "fuego-wuerzburg",
+      "name": "Orgasmus",
+      "category": "Vodka",
+      "description": "Vodka, Amaretto, Triple Sec, Crème de Cacao weiß, Sahne",
+      "priceEuro": 8.4,
+      "ingredientTags": [
+        "Vodka",
+        "Schokolade",
+        "Milch & Sahne"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 8
+      }
+    },
+    {
+      "id": "fuego-plutonium",
+      "barId": "fuego-wuerzburg",
+      "name": "Plutonium",
+      "category": "Vodka",
+      "description": "Vodka,Gin, Apricot Brandy, Blue Curacao, Zitronen- & Maracujasaft",
+      "priceEuro": 8.4,
+      "ingredientTags": [
+        "Gin",
+        "Vodka",
+        "Brandy",
+        "Zitrone",
+        "Maracuja"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 8
+      }
+    },
+    {
+      "id": "fuego-russian-lover",
+      "barId": "fuego-wuerzburg",
+      "name": "Russian Lover",
+      "category": "Vodka",
+      "description": "Vodka, Triple Sec, Lime Juice, Zucker, Zitronen- & Ananassaft",
+      "priceEuro": 8.4,
+      "ingredientTags": [
+        "Vodka",
+        "Ananas",
+        "Zitrone",
+        "Limette"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 8
+      }
+    },
+    {
+      "id": "fuego-sex-on-the-beach",
+      "barId": "fuego-wuerzburg",
+      "name": "Sex on the Beach",
+      "category": "Vodka",
+      "description": "Vodka,Pfirsichlikör, Cranberry Sirup, Ananas- & Zitronensaft, Cranberry Juice",
+      "priceEuro": 8.4,
+      "ingredientTags": [
+        "Vodka",
+        "Ananas",
+        "Zitrone",
+        "Pfirsich",
+        "Cranberry"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 8
+      }
+    },
+    {
+      "id": "fuego-the-passionate-berry",
+      "barId": "fuego-wuerzburg",
+      "name": "The Passionate Berry",
+      "category": "Vodka",
+      "description": "Vodka,Passoa Liqueur, Maracujasaft",
+      "priceEuro": 8.4,
+      "ingredientTags": [
+        "Vodka",
+        "Maracuja"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 8
+      }
+    },
+    {
+      "id": "fuego-titanic-iceberg",
+      "barId": "fuego-wuerzburg",
+      "name": "Titanic-Iceberg",
+      "category": "Vodka",
+      "description": "Vodka, Blue Curacao, Waldmeistersirup, Zucker, Zitronensaft",
+      "priceEuro": 8.4,
+      "ingredientTags": [
+        "Vodka",
+        "Zitrone"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 8
+      }
+    },
+    {
+      "id": "fuego-touchdown",
+      "barId": "fuego-wuerzburg",
+      "name": "Touchdown",
+      "category": "Vodka",
+      "description": "Vodka, ApricotBrandy, Grenadine, Zitronen- & Maracujasaft",
+      "priceEuro": 8.4,
+      "ingredientTags": [
+        "Vodka",
+        "Brandy",
+        "Zitrone",
+        "Maracuja"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 8
+      }
+    },
+    {
+      "id": "fuego-tropical-itch",
+      "barId": "fuego-wuerzburg",
+      "name": "Tropical Itch",
+      "category": "Vodka",
+      "description": "Vodka, Triple Sec, Mango- & Bananensirup, Lime Juice, Ananas-, Zitronen- & O-Saft",
+      "priceEuro": 8.4,
+      "ingredientTags": [
+        "Vodka",
+        "Ananas",
+        "Orange",
+        "Zitrone",
+        "Limette",
+        "Banane",
+        "Mango"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 8
+      }
+    },
+    {
+      "id": "fuego-vanilla-sky",
+      "barId": "fuego-wuerzburg",
+      "name": "Vanilla Sky",
+      "category": "Vodka",
+      "description": "Vodka, Licor 43, Blue Curacao, Zitronen- & Orangensaft",
+      "priceEuro": 8.4,
+      "ingredientTags": [
+        "Vodka",
+        "Orange",
+        "Zitrone"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 8
+      }
+    },
+    {
+      "id": "fuego-batida-de-fresa",
+      "barId": "fuego-wuerzburg",
+      "name": "Batida de Fresa",
+      "category": "Batidas",
+      "description": "Cachaca, Limette, Rohrzucker, Erdbeermark",
+      "priceEuro": 8.4,
+      "ingredientTags": [
+        "Limette",
+        "Erdbeere"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 9
+      }
+    },
+    {
+      "id": "fuego-batida-de-maracuja",
+      "barId": "fuego-wuerzburg",
+      "name": "Batida de Maracuja",
+      "category": "Batidas",
+      "description": "Cachaca, Limette, Rohrzucker, Maracujanektar",
+      "priceEuro": 8.4,
+      "ingredientTags": [
+        "Limette",
+        "Maracuja"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 9
+      }
+    },
+    {
+      "id": "fuego-banana-colada",
+      "barId": "fuego-wuerzburg",
+      "name": "Banana Colada",
+      "category": "Coladas",
+      "description": "Weißer Rum, Crème de Bananes, Kokossahne, Ananas- & Bananensaft",
+      "priceEuro": 8.2,
+      "ingredientTags": [
+        "Rum",
+        "Ananas",
+        "Banane",
+        "Kokos",
+        "Milch & Sahne"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 9
+      }
+    },
+    {
+      "id": "fuego-brazil-colada",
+      "barId": "fuego-wuerzburg",
+      "name": "Brazil Colada",
+      "category": "Coladas",
+      "description": "Cachaca, Kokossahne, Ananassaft",
+      "priceEuro": 8.2,
+      "ingredientTags": [
+        "Ananas",
+        "Kokos",
+        "Milch & Sahne"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 9
+      }
+    },
+    {
+      "id": "fuego-cherry-colada",
+      "barId": "fuego-wuerzburg",
+      "name": "Cherry Colada",
+      "category": "Coladas",
+      "description": "Weißer Rum, Peter Heering, Kokossahne, Ananas- & Kirschsaft",
+      "priceEuro": 8.2,
+      "ingredientTags": [
+        "Rum",
+        "Ananas",
+        "Kirsche",
+        "Kokos",
+        "Milch & Sahne"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 9
+      }
+    },
+    {
+      "id": "fuego-chi-chi",
+      "barId": "fuego-wuerzburg",
+      "name": "Chi-Chi",
+      "category": "Coladas",
+      "description": "Batida, Vodka, Kokossahne, Ananassaft",
+      "priceEuro": 8.2,
+      "ingredientTags": [
+        "Vodka",
+        "Ananas",
+        "Kokos",
+        "Milch & Sahne"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 9
+      }
+    },
+    {
+      "id": "fuego-choco-colada",
+      "barId": "fuego-wuerzburg",
+      "name": "Choco Colada",
+      "category": "Coladas",
+      "description": "Dunkler Rum, Mozartlikör, Kokossahne, Crème de Cacao braun, Ananassaft",
+      "priceEuro": 8.2,
+      "ingredientTags": [
+        "Rum",
+        "Ananas",
+        "Kokos",
+        "Schokolade",
+        "Milch & Sahne"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 9
+      }
+    },
+    {
+      "id": "fuego-flying-cangaroo",
+      "barId": "fuego-wuerzburg",
+      "name": "Flying Cangaroo",
+      "category": "Coladas",
+      "description": "Weißer Rum, Vodka, Galliano, Kokossahne, Ananas- & Orangensaft",
+      "priceEuro": 8.2,
+      "ingredientTags": [
+        "Rum",
+        "Vodka",
+        "Ananas",
+        "Orange",
+        "Kokos",
+        "Milch & Sahne"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 9
+      }
+    },
+    {
+      "id": "fuego-melon-colada",
+      "barId": "fuego-wuerzburg",
+      "name": "Melon Colada",
+      "category": "Coladas",
+      "description": "Weißer Rum, Melonenlikör, Kokossahne, Ananassaft",
+      "priceEuro": 8.2,
+      "ingredientTags": [
+        "Rum",
+        "Ananas",
+        "Kokos",
+        "Milch & Sahne"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 9
+      }
+    },
+    {
+      "id": "fuego-mexican-colada",
+      "barId": "fuego-wuerzburg",
+      "name": "Mexican Colada",
+      "category": "Coladas",
+      "description": "Tequila, Kahlua, Kokossahne, Ananassaft",
+      "priceEuro": 8.2,
+      "ingredientTags": [
+        "Tequila",
+        "Ananas",
+        "Kokos",
+        "Milch & Sahne"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 9
+      }
+    },
+    {
+      "id": "fuego-nutty-colada",
+      "barId": "fuego-wuerzburg",
+      "name": "Nutty Colada",
+      "category": "Coladas",
+      "description": "Weißer Rum, Frangelico, Amaretto, Kokossahne, Ananassaft",
+      "priceEuro": 8.2,
+      "ingredientTags": [
+        "Rum",
+        "Ananas",
+        "Kokos",
+        "Milch & Sahne"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 9
+      }
+    },
+    {
+      "id": "fuego-peach-colada",
+      "barId": "fuego-wuerzburg",
+      "name": "Peach Colada",
+      "category": "Coladas",
+      "description": "Weißer Rum, Pfirsichlikör, Kokossahne, Pfirsich- & Ananassaft",
+      "priceEuro": 8.2,
+      "ingredientTags": [
+        "Rum",
+        "Ananas",
+        "Pfirsich",
+        "Kokos",
+        "Milch & Sahne"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 9
+      }
+    },
+    {
+      "id": "fuego-pina-colada",
+      "barId": "fuego-wuerzburg",
+      "name": "Pina Colada",
+      "category": "Coladas",
+      "description": "Weißer & brauner Rum, Kokossahne, Ananassaft",
+      "priceEuro": 8.2,
+      "ingredientTags": [
+        "Rum",
+        "Ananas",
+        "Kokos",
+        "Milch & Sahne"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 9
+      }
+    },
+    {
+      "id": "fuego-strawberry-colada",
+      "barId": "fuego-wuerzburg",
+      "name": "Strawberry Colada",
+      "category": "Coladas",
+      "description": "Weißer & brauner Rum, Kokossahne, Ananassaft, Erdbeermark",
+      "priceEuro": 8.2,
+      "ingredientTags": [
+        "Rum",
+        "Ananas",
+        "Erdbeere",
+        "Kokos",
+        "Milch & Sahne"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 9
+      }
+    },
+    {
+      "id": "fuego-swimmingpool",
+      "barId": "fuego-wuerzburg",
+      "name": "Swimmingpool",
+      "category": "Coladas",
+      "description": "Weißer Rum, Vodka, Kokossahne, Ananassaft, Blue Curacao",
+      "priceEuro": 8.2,
+      "ingredientTags": [
+        "Rum",
+        "Vodka",
+        "Ananas",
+        "Kokos",
+        "Milch & Sahne"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 9
+      }
+    },
+    {
+      "id": "fuego-white-cloud",
+      "barId": "fuego-wuerzburg",
+      "name": "White Cloud",
+      "category": "Coladas",
+      "description": "Vodka, Crème de Cacao weiß, Kokossahne, Ananassaft",
+      "priceEuro": 8.2,
+      "ingredientTags": [
+        "Vodka",
+        "Ananas",
+        "Kokos",
+        "Schokolade",
+        "Milch & Sahne"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 9
+      }
+    },
+    {
+      "id": "fuego-43-chocolate-kisses",
+      "barId": "fuego-wuerzburg",
+      "name": "43 Chocolate Kisses",
+      "category": "Specials",
+      "description": "Licor 43, Haselnuss Sirup, Sahne, Milch, Schokoladencreme",
+      "priceEuro": 8.2,
+      "ingredientTags": [
+        "Schokolade",
+        "Milch & Sahne"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 10
+      }
+    },
+    {
+      "id": "fuego-bahama-mama",
+      "barId": "fuego-wuerzburg",
+      "name": "Bahama Mama",
+      "category": "Specials",
+      "description": "Weißer & brauner Rum, Malibu, Grenadine, Orangen- & Ananassaft",
+      "priceEuro": 8.2,
+      "ingredientTags": [
+        "Rum",
+        "Ananas",
+        "Orange",
+        "Kokos"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 10
+      }
+    },
+    {
+      "id": "fuego-blue-cobra",
+      "barId": "fuego-wuerzburg",
+      "name": "Blue Cobra",
+      "category": "Specials",
+      "description": "Malibu, Blue Curacao, Lime Juice, Zitronen- & Ananassaft, Tonic Water",
+      "priceEuro": 8.2,
+      "ingredientTags": [
+        "Ananas",
+        "Zitrone",
+        "Limette",
+        "Kokos"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 10
+      }
+    },
+    {
+      "id": "fuego-eldorado",
+      "barId": "fuego-wuerzburg",
+      "name": "Eldorado",
+      "category": "Specials",
+      "description": "Tequila, Cointreau, Crème de Bananes, Orangen-, Ananas- & Bananensaft",
+      "priceEuro": 8.2,
+      "ingredientTags": [
+        "Tequila",
+        "Ananas",
+        "Orange",
+        "Banane"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 10
+      }
+    },
+    {
+      "id": "fuego-golden-beach",
+      "barId": "fuego-wuerzburg",
+      "name": "Golden Beach",
+      "category": "Specials",
+      "description": "Vodka, Wassermelonlikör, Cranberrysirup, Zitronen-, Orangen- & Maracujasaft",
+      "priceEuro": 8.2,
+      "ingredientTags": [
+        "Vodka",
+        "Orange",
+        "Zitrone",
+        "Maracuja",
+        "Cranberry"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 10
+      }
+    },
+    {
+      "id": "fuego-green-poison",
+      "barId": "fuego-wuerzburg",
+      "name": "Green Poison",
+      "category": "Specials",
+      "description": "Tequila, Blue Curacao, Kokossirup, Zitronen- & Maracujasaft",
+      "priceEuro": 8.2,
+      "ingredientTags": [
+        "Tequila",
+        "Zitrone",
+        "Maracuja",
+        "Kokos"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 10
+      }
+    },
+    {
+      "id": "fuego-lady-s-dream",
+      "barId": "fuego-wuerzburg",
+      "name": "Lady´s Dream",
+      "category": "Specials",
+      "description": "Canadian Whisky, Cointreau, Erdbeermark, Ananassaft, Sahne",
+      "priceEuro": 8.2,
+      "ingredientTags": [
+        "Whiskey",
+        "Ananas",
+        "Erdbeere",
+        "Milch & Sahne"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 10
+      }
+    },
+    {
+      "id": "fuego-morning-dew",
+      "barId": "fuego-wuerzburg",
+      "name": "Morning Dew",
+      "category": "Specials",
+      "description": "Irish Whiskey, Blue Curacao, Angostura, Zitronen- & Maracujasaft",
+      "priceEuro": 8.2,
+      "ingredientTags": [
+        "Whiskey",
+        "Zitrone",
+        "Maracuja"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 10
+      }
+    },
+    {
+      "id": "fuego-russian-rose",
+      "barId": "fuego-wuerzburg",
+      "name": "Russian Rose",
+      "category": "Specials",
+      "description": "Vodka, Campari, Lime Juice Zitronen- & Orangensaft, Bitter Lemon",
+      "priceEuro": 8.2,
+      "ingredientTags": [
+        "Vodka",
+        "Orange",
+        "Zitrone",
+        "Limette"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 10
+      }
+    },
+    {
+      "id": "fuego-simply-red",
+      "barId": "fuego-wuerzburg",
+      "name": "Simply Red",
+      "category": "Specials",
+      "description": "Vodka, Red Orange, Zitronen-, Maracuja- & Orangensaft",
+      "priceEuro": 8.2,
+      "ingredientTags": [
+        "Vodka",
+        "Orange",
+        "Zitrone",
+        "Maracuja"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 10
+      }
+    },
+    {
+      "id": "fuego-smooth-canadian",
+      "barId": "fuego-wuerzburg",
+      "name": "Smooth Canadian",
+      "category": "Specials",
+      "description": "Canadian Whisky, Cointreau, Kirschsaft, Lime Juice",
+      "priceEuro": 8.2,
+      "ingredientTags": [
+        "Whiskey",
+        "Limette",
+        "Kirsche"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 10
+      }
+    },
+    {
+      "id": "fuego-tropicana",
+      "barId": "fuego-wuerzburg",
+      "name": "Tropicana",
+      "category": "Specials",
+      "description": "Cachaca, Crème de Bananes, Kokossirup, Blue Curacao, Orangen- & Maracujasaft",
+      "priceEuro": 8.2,
+      "ingredientTags": [
+        "Orange",
+        "Maracuja",
+        "Banane",
+        "Kokos"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 10
+      }
+    },
+    {
+      "id": "fuego-zorro",
+      "barId": "fuego-wuerzburg",
+      "name": "Zorro",
+      "category": "Specials",
+      "description": "Tequila, Cointreau, Blue Curacao Grapefruitsaft, Tonic Water",
+      "priceEuro": 8.2,
+      "ingredientTags": [
+        "Tequila",
+        "Grapefruit"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 10
+      }
+    },
+    {
+      "id": "fuego-bloody-baron",
+      "barId": "fuego-wuerzburg",
+      "name": "Bloody Baron",
+      "category": "Gin",
+      "description": "Gin, Erdbeerlikör, Blutorangensirup, Zitronen-, Orangensaft, Soda",
+      "priceEuro": 8.2,
+      "ingredientTags": [
+        "Gin",
+        "Orange",
+        "Zitrone",
+        "Erdbeere"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 11
+      }
+    },
+    {
+      "id": "fuego-cape-cod-cooler",
+      "barId": "fuego-wuerzburg",
+      "name": "Cape Cod Cooler",
+      "category": "Gin",
+      "description": "Gin, Creme de Cassis, Zucker, Zitronensaft, Cranberry Juice",
+      "priceEuro": 8.2,
+      "ingredientTags": [
+        "Gin",
+        "Zitrone",
+        "Cranberry"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 11
+      }
+    },
+    {
+      "id": "fuego-cranberry-citrus-breeze",
+      "barId": "fuego-wuerzburg",
+      "name": "Cranberry Citrus Breeze",
+      "category": "Gin",
+      "description": "Gin, Grand Marnier, Lime Juice, Cranberry Juice",
+      "priceEuro": 8.2,
+      "ingredientTags": [
+        "Gin",
+        "Limette",
+        "Cranberry"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 11
+      }
+    },
+    {
+      "id": "fuego-jungle-juice",
+      "barId": "fuego-wuerzburg",
+      "name": "Jungle Juice",
+      "category": "Gin",
+      "description": "Gin, Apricot Brandy, Pisang Ambon Lime Juice, Zitronen- &Orangensaft",
+      "priceEuro": 8.2,
+      "ingredientTags": [
+        "Gin",
+        "Brandy",
+        "Orange",
+        "Zitrone",
+        "Limette"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 11
+      }
+    },
+    {
+      "id": "fuego-lady-killer",
+      "barId": "fuego-wuerzburg",
+      "name": "Lady Killer",
+      "category": "Gin",
+      "description": "Gin, ApricotBrandy, Cointreau, Maracujasirup, Lime Juice, Zitronen-, Orangen- & Ananassaft",
+      "priceEuro": 8.2,
+      "ingredientTags": [
+        "Gin",
+        "Brandy",
+        "Ananas",
+        "Orange",
+        "Zitrone",
+        "Limette",
+        "Maracuja"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 11
+      }
+    },
+    {
+      "id": "fuego-mizners-dream",
+      "barId": "fuego-wuerzburg",
+      "name": "Mizners Dream",
+      "category": "Gin",
+      "description": "Gin, Pfirsichlikör, Grenadine, Zitronen- & Orangensaft",
+      "priceEuro": 8.2,
+      "ingredientTags": [
+        "Gin",
+        "Orange",
+        "Zitrone",
+        "Pfirsich"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 11
+      }
+    },
+    {
+      "id": "fuego-singapore-sling",
+      "barId": "fuego-wuerzburg",
+      "name": "Singapore Sling",
+      "category": "Gin",
+      "description": "Gin, Heering Cheerry Likör, Cointreau, Benedictine, Angostura, LimeJuice, Zitronen- &Ananassaft, Grenadine, Soda",
+      "priceEuro": 8.2,
+      "ingredientTags": [
+        "Gin",
+        "Ananas",
+        "Zitrone"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 11
+      }
+    },
+    {
+      "id": "fuego-latin-lover",
+      "barId": "fuego-wuerzburg",
+      "name": "Latin Lover",
+      "category": "Tequila",
+      "description": "Tequila, Triple Sec, Cachaca, Zitronen- & Ananassaft, Lime Juice",
+      "priceEuro": 8.2,
+      "ingredientTags": [
+        "Tequila",
+        "Ananas",
+        "Zitrone",
+        "Limette"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 11
+      }
+    },
+    {
+      "id": "fuego-mexican-pain-killer",
+      "barId": "fuego-wuerzburg",
+      "name": "Mexican Pain Killer",
+      "category": "Tequila",
+      "description": "Tequila gold, Vodka, Rum, Kokossirup Ananas- & Orangensaft",
+      "priceEuro": 8.2,
+      "ingredientTags": [
+        "Rum",
+        "Vodka",
+        "Tequila",
+        "Ananas",
+        "Orange",
+        "Kokos"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 11
+      }
+    },
+    {
+      "id": "fuego-mexican-sunset",
+      "barId": "fuego-wuerzburg",
+      "name": "Mexican Sunset",
+      "category": "Tequila",
+      "description": "Tequila, Cointreau, Mandelsirup, Zitronen- & Orangensaft",
+      "priceEuro": 8.2,
+      "ingredientTags": [
+        "Tequila",
+        "Orange",
+        "Zitrone"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 11
+      }
+    },
+    {
+      "id": "fuego-pepe-safternoon",
+      "barId": "fuego-wuerzburg",
+      "name": "Pepe'sAfternoon",
+      "category": "Tequila",
+      "description": "Tequila, Crème de Bananes, Kokossirup Grenadine, Zitronen- & Maracujasaft",
+      "priceEuro": 8.2,
+      "ingredientTags": [
+        "Tequila",
+        "Zitrone",
+        "Maracuja",
+        "Banane",
+        "Kokos"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 11
+      }
+    },
+    {
+      "id": "fuego-tequila-sunrise",
+      "barId": "fuego-wuerzburg",
+      "name": "Tequila Sunrise",
+      "category": "Tequila",
+      "description": "Tequila, Grenadine, Zitronen-, Ananas- & Orangensaft",
+      "priceEuro": 8.2,
+      "ingredientTags": [
+        "Tequila",
+        "Ananas",
+        "Orange",
+        "Zitrone"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 11
+      }
+    },
+    {
+      "id": "fuego-tijuana-punch",
+      "barId": "fuego-wuerzburg",
+      "name": "Tijuana Punch",
+      "category": "Tequila",
+      "description": "Tequila, Gin, Vodka, Galliano, Mangosirup, Zitronen-, Ananas- & Orangensaft",
+      "priceEuro": 8.2,
+      "ingredientTags": [
+        "Gin",
+        "Vodka",
+        "Tequila",
+        "Ananas",
+        "Orange",
+        "Zitrone",
+        "Mango"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 11
+      }
+    },
+    {
+      "id": "fuego-viva",
+      "barId": "fuego-wuerzburg",
+      "name": "Viva",
+      "category": "Tequila",
+      "description": "Tequila, Red Orange, Lime Juice, Maracuja-, Zitronen- &Orangensaft",
+      "priceEuro": 8.2,
+      "ingredientTags": [
+        "Tequila",
+        "Orange",
+        "Zitrone",
+        "Limette",
+        "Maracuja"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 11
+      }
+    },
+    {
+      "id": "fuego-gimlet",
+      "barId": "fuego-wuerzburg",
+      "name": "Gimlet",
+      "category": "Pre Dinner",
+      "description": "Gin, Lime Juice",
+      "priceEuro": 7.6,
+      "ingredientTags": [
+        "Gin",
+        "Limette"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 12
+      }
+    },
+    {
+      "id": "fuego-cosmopolitan",
+      "barId": "fuego-wuerzburg",
+      "name": "Cosmopolitan",
+      "category": "Pre Dinner",
+      "description": "Vodka, Triple Sec, Cranberry Juice, Lime Juice",
+      "priceEuro": 7.6,
+      "ingredientTags": [
+        "Vodka",
+        "Limette",
+        "Cranberry"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 12
+      }
+    },
+    {
+      "id": "fuego-dry-martini",
+      "barId": "fuego-wuerzburg",
+      "name": "Dry Martini",
+      "category": "Pre Dinner",
+      "description": "Gin, Noilly Prat, Olive",
+      "priceEuro": 7.6,
+      "ingredientTags": [
+        "Gin"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 12
+      }
+    },
+    {
+      "id": "fuego-manhatten",
+      "barId": "fuego-wuerzburg",
+      "name": "Manhatten",
+      "category": "Pre Dinner",
+      "description": "Rye Whisky, roter Vermouth, Angostura",
+      "priceEuro": 7.6,
+      "ingredientTags": [
+        "Whiskey"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 12
+      }
+    },
+    {
+      "id": "fuego-vesper-martini",
+      "barId": "fuego-wuerzburg",
+      "name": "Vesper Martini",
+      "category": "Pre Dinner",
+      "description": "Vodka, Gin, Lillet",
+      "priceEuro": 7.6,
+      "ingredientTags": [
+        "Gin",
+        "Vodka"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 12
+      }
+    },
+    {
+      "id": "fuego-bellini",
+      "barId": "fuego-wuerzburg",
+      "name": "Bellini",
+      "category": "Champagner",
+      "description": "Pfirsichsaft, Pfirsichlikör, Zitrone, Champagner",
+      "priceEuro": 8.9,
+      "ingredientTags": [
+        "Champagner",
+        "Zitrone",
+        "Pfirsich"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 12
+      }
+    },
+    {
+      "id": "fuego-kir-royal",
+      "barId": "fuego-wuerzburg",
+      "name": "Kir Royal",
+      "category": "Champagner",
+      "description": "Créme de Cassis, Champagner",
+      "priceEuro": 8.9,
+      "ingredientTags": [
+        "Champagner"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 12
+      }
+    },
+    {
+      "id": "fuego-moulin-rouge",
+      "barId": "fuego-wuerzburg",
+      "name": "Moulin Rouge",
+      "category": "Champagner",
+      "description": "Gin, Apricot Brandy, Grenadine, Zitronensaft, Champagner",
+      "priceEuro": 8.9,
+      "ingredientTags": [
+        "Gin",
+        "Brandy",
+        "Champagner",
+        "Zitrone"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 12
+      }
+    },
+    {
+      "id": "fuego-rossini",
+      "barId": "fuego-wuerzburg",
+      "name": "Rossini",
+      "category": "Champagner",
+      "description": "Erdbeermark, Erdbeerlikör, Zitronensaft, Champagner",
+      "priceEuro": 8.9,
+      "ingredientTags": [
+        "Champagner",
+        "Zitrone",
+        "Erdbeere"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 12
+      }
+    },
+    {
+      "id": "fuego-black-russian",
+      "barId": "fuego-wuerzburg",
+      "name": "Black Russian",
+      "category": "After Dinner",
+      "description": "Vodka,Kahlua",
+      "priceEuro": 7.9,
+      "ingredientTags": [
+        "Vodka"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 12
+      }
+    },
+    {
+      "id": "fuego-grashopper",
+      "barId": "fuego-wuerzburg",
+      "name": "Grashopper",
+      "category": "After Dinner",
+      "description": "Créme de Menthe grün, Créme de Cacao weiß, Sahne",
+      "priceEuro": 7.9,
+      "ingredientTags": [
+        "Minze",
+        "Schokolade",
+        "Milch & Sahne"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 12
+      }
+    },
+    {
+      "id": "fuego-irish-crown",
+      "barId": "fuego-wuerzburg",
+      "name": "Irish Crown",
+      "category": "After Dinner",
+      "description": "Bailey´s, Amaretto, Jack Daniel´s, Sahne",
+      "priceEuro": 7.9,
+      "ingredientTags": [
+        "Whiskey",
+        "Milch & Sahne"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 12
+      }
+    },
+    {
+      "id": "fuego-white-russian",
+      "barId": "fuego-wuerzburg",
+      "name": "White Russian",
+      "category": "After Dinner",
+      "description": "Vodka, Kahlua, Sahne",
+      "priceEuro": 7.9,
+      "ingredientTags": [
+        "Vodka",
+        "Milch & Sahne"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 12
+      }
+    },
+    {
+      "id": "fuego-b-52",
+      "barId": "fuego-wuerzburg",
+      "name": "B 52",
+      "category": "Shooters",
+      "description": "Kahlua, Bailey´s, Rum 73%",
+      "priceEuro": 5.2,
+      "ingredientTags": [
+        "Rum"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 12
+      }
+    },
+    {
+      "id": "fuego-godfather",
+      "barId": "fuego-wuerzburg",
+      "name": "Godfather",
+      "category": "Shooters",
+      "description": "Bourbon Whiskey, Amaretto",
+      "priceEuro": 5.2,
+      "ingredientTags": [
+        "Whiskey"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 12
+      }
+    },
+    {
+      "id": "fuego-hot-shot",
+      "barId": "fuego-wuerzburg",
+      "name": "Hot Shot",
+      "category": "Shooters",
+      "description": "Spezial Hausrezept: taste it!",
+      "priceEuro": 5.2,
+      "ingredientTags": [],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 12
+      }
+    },
+    {
+      "id": "fuego-after-the-funeral",
+      "barId": "fuego-wuerzburg",
+      "name": "After the funeral",
+      "category": "Rum",
+      "description": "Weißer Rum, Weißwein, Mango-, Zitronen- & Kirschsaft",
+      "priceEuro": 8.4,
+      "ingredientTags": [
+        "Rum",
+        "Zitrone",
+        "Kirsche",
+        "Mango"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 13
+      }
+    },
+    {
+      "id": "fuego-caribbean-lover",
+      "barId": "fuego-wuerzburg",
+      "name": "Caribbean Lover",
+      "category": "Rum",
+      "description": "Weißer & brauner Rum, Triple Sec, Lime Juice, Maracuja-, Zitronen- & Orangensaft",
+      "priceEuro": 8.4,
+      "ingredientTags": [
+        "Rum",
+        "Orange",
+        "Zitrone",
+        "Limette",
+        "Maracuja"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 13
+      }
+    },
+    {
+      "id": "fuego-caribbean-sunset",
+      "barId": "fuego-wuerzburg",
+      "name": "Caribbean Sunset",
+      "category": "Rum",
+      "description": "Brauner Rum, Vodka, Pfirsichlikör, Cranberry Juice, Pfirsichsaft",
+      "priceEuro": 8.4,
+      "ingredientTags": [
+        "Rum",
+        "Vodka",
+        "Pfirsich",
+        "Cranberry"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 13
+      }
+    },
+    {
+      "id": "fuego-exotic-lemon",
+      "barId": "fuego-wuerzburg",
+      "name": "Exotic Lemon",
+      "category": "Rum",
+      "description": "Rum, Maracujasaft, Bitter Lemon",
+      "priceEuro": 8.4,
+      "ingredientTags": [
+        "Rum",
+        "Zitrone",
+        "Maracuja"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 13
+      }
+    },
+    {
+      "id": "fuego-exotica",
+      "barId": "fuego-wuerzburg",
+      "name": "Exotica",
+      "category": "Rum",
+      "description": "Brauner Rum, Licor 43, Vanillesirup, Zitronen- & Orangensaft, Cranberry Juice",
+      "priceEuro": 8.4,
+      "ingredientTags": [
+        "Rum",
+        "Orange",
+        "Zitrone",
+        "Cranberry"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 13
+      }
+    },
+    {
+      "id": "fuego-honolulu-juicer",
+      "barId": "fuego-wuerzburg",
+      "name": "Honolulu Juicer",
+      "category": "Rum",
+      "description": "Brauner Rum, Southern Comfort, Lime Juice, Zitronen- & Ananassaft",
+      "priceEuro": 8.4,
+      "ingredientTags": [
+        "Rum",
+        "Ananas",
+        "Zitrone",
+        "Limette"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 13
+      }
+    },
+    {
+      "id": "fuego-licor-revolution",
+      "barId": "fuego-wuerzburg",
+      "name": "Licor Revolution",
+      "category": "Rum",
+      "description": "Brauner Rum, Wassermelonensirup, Licor43, Zitronen-, Maracuja- & Orangensaft",
+      "priceEuro": 8.4,
+      "ingredientTags": [
+        "Rum",
+        "Orange",
+        "Zitrone",
+        "Maracuja"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 13
+      }
+    },
+    {
+      "id": "fuego-pink-elephant",
+      "barId": "fuego-wuerzburg",
+      "name": "Pink Elephant",
+      "category": "Rum",
+      "description": "Brauner Rum, Crème de Bananes, Grenadine, Maracuja-, Zitronen- & Grapefruitsaft",
+      "priceEuro": 8.4,
+      "ingredientTags": [
+        "Rum",
+        "Zitrone",
+        "Maracuja",
+        "Banane",
+        "Grapefruit"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 13
+      }
+    },
+    {
+      "id": "fuego-planters-punch",
+      "barId": "fuego-wuerzburg",
+      "name": "Planters Punch",
+      "category": "Rum",
+      "description": "Brauner Rum, Rum 73%,Grenadine, Zitronen-, Orangen- & Ananassaft",
+      "priceEuro": 8.4,
+      "ingredientTags": [
+        "Rum",
+        "Ananas",
+        "Orange",
+        "Zitrone"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 13
+      }
+    },
+    {
+      "id": "fuego-rum-runner",
+      "barId": "fuego-wuerzburg",
+      "name": "Rum Runner",
+      "category": "Rum",
+      "description": "Vier Sorten Rum, Angostura, Zucker, Zitronen- & Ananassaft",
+      "priceEuro": 8.4,
+      "ingredientTags": [
+        "Rum",
+        "Ananas",
+        "Zitrone"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 13
+      }
+    },
+    {
+      "id": "fuego-scrimgeor",
+      "barId": "fuego-wuerzburg",
+      "name": "Scrimgeor",
+      "category": "Rum",
+      "description": "WeißerRum, Tequila, Erdbeersirup, Kokossirup, Zitronen-, Orangen- &Maracujasaft",
+      "priceEuro": 8.4,
+      "ingredientTags": [
+        "Tequila",
+        "Orange",
+        "Zitrone",
+        "Maracuja",
+        "Erdbeere",
+        "Kokos"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 13
+      }
+    },
+    {
+      "id": "fuego-skorpion",
+      "barId": "fuego-wuerzburg",
+      "name": "Skorpion",
+      "category": "Rum",
+      "description": "Rum,Brandy, Lime Juice, Mandelsirup, Zitronen- & Orangensaft",
+      "priceEuro": 8.4,
+      "ingredientTags": [
+        "Rum",
+        "Brandy",
+        "Orange",
+        "Zitrone",
+        "Limette"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 13
+      }
+    },
+    {
+      "id": "fuego-west-indian-punch",
+      "barId": "fuego-wuerzburg",
+      "name": "West Indian Punch",
+      "category": "Rum",
+      "description": "Brauner Rum, Crème de Bananes Zitronen-, Orangen- & Ananassaft",
+      "priceEuro": 8.4,
+      "ingredientTags": [
+        "Rum",
+        "Ananas",
+        "Orange",
+        "Zitrone",
+        "Banane"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 13
+      }
+    },
+    {
+      "id": "fuego-hurricane",
+      "barId": "fuego-wuerzburg",
+      "name": "Hurricane",
+      "category": "Rum",
+      "description": "Weißer & brauner Rum, Rum 73%, Angostura, Maracujasirup, Zitronen-, Ananas- & Orangensaft",
+      "priceEuro": 8.9,
+      "ingredientTags": [
+        "Rum",
+        "Ananas",
+        "Orange",
+        "Zitrone",
+        "Maracuja"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 13
+      }
+    },
+    {
+      "id": "fuego-zombie",
+      "barId": "fuego-wuerzburg",
+      "name": "Zombie",
+      "category": "Rum",
+      "description": "Vier Sorten Rum, Kirschlikör, Blutorangensirup, Zitronen- &Orangensaft",
+      "priceEuro": 8.9,
+      "ingredientTags": [
+        "Rum",
+        "Orange",
+        "Zitrone",
+        "Kirsche"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 13
+      }
+    },
+    {
+      "id": "fuego-cherry-love",
+      "barId": "fuego-wuerzburg",
+      "name": "Cherry Love",
+      "category": "Brandy",
+      "description": "Brandy, Apricot Brandy,Lime Juice, Kirschsaft",
+      "priceEuro": 8.2,
+      "ingredientTags": [
+        "Brandy",
+        "Limette",
+        "Kirsche"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 14
+      }
+    },
+    {
+      "id": "fuego-petrifier",
+      "barId": "fuego-wuerzburg",
+      "name": "Petrifier",
+      "category": "Brandy",
+      "description": "Calvados, Apricot Brandy, Rum, Vodka, Gin, Angostura, Grenadine, Lime Juice, Zitronensaft, Ginger Ale",
+      "priceEuro": 8.2,
+      "ingredientTags": [
+        "Gin",
+        "Rum",
+        "Vodka",
+        "Brandy",
+        "Zitrone",
+        "Limette"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 14
+      }
+    },
+    {
+      "id": "fuego-alabama-slammer",
+      "barId": "fuego-wuerzburg",
+      "name": "Alabama Slammer",
+      "category": "Whiskey",
+      "description": "Southern Comfort, Amareto,Gin, Zitronen- & Orangensaft",
+      "priceEuro": 8.4,
+      "ingredientTags": [
+        "Gin",
+        "Orange",
+        "Zitrone"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 14
+      }
+    },
+    {
+      "id": "fuego-beat-the-could",
+      "barId": "fuego-wuerzburg",
+      "name": "Beat the Could",
+      "category": "Whiskey",
+      "description": "Ballantine’s, Drambuie, Vanillesirup, Zitronensaft, Cranberry Juice",
+      "priceEuro": 8.4,
+      "ingredientTags": [
+        "Whiskey",
+        "Zitrone",
+        "Cranberry"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 14
+      }
+    },
+    {
+      "id": "fuego-beetlejuice",
+      "barId": "fuego-wuerzburg",
+      "name": "Beetlejuice",
+      "category": "Whiskey",
+      "description": "Four Roses, Cassis-Sirup, Lime Juice, Red Orange, Zitronen-, Grapefruit- & Maracujasaft",
+      "priceEuro": 8.4,
+      "ingredientTags": [
+        "Whiskey",
+        "Orange",
+        "Zitrone",
+        "Limette",
+        "Maracuja",
+        "Grapefruit"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 14
+      }
+    },
+    {
+      "id": "fuego-hektor-lorenzo",
+      "barId": "fuego-wuerzburg",
+      "name": "Hektor Lorenzo",
+      "category": "Whiskey",
+      "description": "Bourbon Whiskey, Southern Comfort, Grenadine, Lime Juice, Zitronen- & Orangensaft",
+      "priceEuro": 8.4,
+      "ingredientTags": [
+        "Whiskey",
+        "Orange",
+        "Zitrone",
+        "Limette"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 14
+      }
+    },
+    {
+      "id": "fuego-highland-dream",
+      "barId": "fuego-wuerzburg",
+      "name": "Highland Dream",
+      "category": "Whiskey",
+      "description": "Drambuie, Ballantine’s, Maracuja- & Orangensaft",
+      "priceEuro": 8.4,
+      "ingredientTags": [
+        "Whiskey",
+        "Orange",
+        "Maracuja"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 14
+      }
+    },
+    {
+      "id": "fuego-highlander",
+      "barId": "fuego-wuerzburg",
+      "name": "Highlander",
+      "category": "Whiskey",
+      "description": "Ballantine’s, Strawberry Likör, Orangensaft",
+      "priceEuro": 8.4,
+      "ingredientTags": [
+        "Whiskey",
+        "Orange",
+        "Erdbeere"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 14
+      }
+    },
+    {
+      "id": "fuego-new-yorker",
+      "barId": "fuego-wuerzburg",
+      "name": "New Yorker",
+      "category": "Whiskey",
+      "description": "Bourbon Whiskey, Grenadine, Lime Juice",
+      "priceEuro": 8.4,
+      "ingredientTags": [
+        "Whiskey",
+        "Limette"
+      ],
+      "tasteTags": [],
+      "source": {
+        "file": "Cocktaikarte-Fuego-2026-1.pdf",
+        "page": 14
+      }
+    }
+  ]
+}

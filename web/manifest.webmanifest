@@ -1,0 +1,9 @@
+{
+  "name": "Cocktailrunde",
+  "short_name": "Cocktailrunde",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f2f4f1",
+  "theme_color": "#f2f4f1",
+  "icons": [{ "src": "./icon.svg?v=3", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }]
+}
