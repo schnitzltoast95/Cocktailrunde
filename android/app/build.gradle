@@ -21,8 +21,8 @@ android {
         applicationId "app.friends.cocktails"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
-        versionCode 3
-        versionName "0.2.1"
+        versionCode 4
+        versionName "0.2.2"
         resValue 'string', 'bug_report_token', bugReportToken
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         aaptOptions {

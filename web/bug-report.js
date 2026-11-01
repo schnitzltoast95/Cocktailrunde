@@ -187,11 +187,14 @@ export function initBugReport(getDrinkName) {
     message.textContent = 'Bericht wird gesendet …';
     try {
       const data = await bugReport.submit({ title: $('#bug-summary').value.trim(), description: $('#bug-description').value.trim(), context: activeContext });
-      if (!data?.url) throw new Error('missing issue URL');
+      if (!data?.created && !data?.url) throw new Error('missing confirmation');
       message.textContent = 'Danke! Dein Fehlerbericht wurde als GitHub-Issue erstellt.';
       form.reset();
-    } catch {
-      message.textContent = 'Senden fehlgeschlagen. Bitte versuch es später erneut; dein Text bleibt hier stehen.';
+    } catch (error) {
+      const status = /GitHub antwortete mit HTTP (\d+)/.exec(String(error?.message || ''));
+      message.textContent = status
+        ? `GitHub hat den Bericht nicht angenommen (HTTP ${status[1]}). Dein Text bleibt hier stehen.`
+        : 'Ob der Bericht angekommen ist, konnte nicht bestätigt werden. Bitte prüfe zuerst die GitHub-Issues, bevor du erneut sendest. Dein Text bleibt hier stehen.';
     } finally {
       submit.disabled = false;
     }

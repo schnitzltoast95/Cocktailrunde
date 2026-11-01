@@ -1,5 +1,5 @@
 import { cloud, signUp, signIn, getGroups, pushRating, pullRatings, createInvite, joinByCode, getMembers, setMemberName, leaveGroup } from './sync.js';
-import { initBugReport, trackBugView } from './bug-report.js?v=2';
+import { initBugReport, trackBugView } from './bug-report.js?v=3';
 
 const $ = (selector) => document.querySelector(selector);
 const catalogContent = $('#catalog-content');

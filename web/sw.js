@@ -1,5 +1,5 @@
-const CACHE = 'cocktails-shell-v23';
-const ASSETS = ['./', './index.html', './style.css?v=18', './app.js?v=17', './bug-report.js?v=2', './sync.js', './supabase-sdk.js', './supabase-config.js', './catalog.json', './icon.svg?v=3', './manifest.webmanifest'];
+const CACHE = 'cocktails-shell-v24';
+const ASSETS = ['./', './index.html', './style.css?v=18', './app.js?v=18', './bug-report.js?v=3', './sync.js', './supabase-sdk.js', './supabase-config.js', './catalog.json', './icon.svg?v=3', './manifest.webmanifest'];
 
 self.addEventListener('install', (event) => {
   event.waitUntil(caches.open(CACHE).then((cache) => cache.addAll(ASSETS)));

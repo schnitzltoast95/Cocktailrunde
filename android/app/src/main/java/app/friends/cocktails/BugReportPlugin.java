@@ -6,8 +6,6 @@ import com.getcapacitor.Plugin;
 import com.getcapacitor.PluginCall;
 import com.getcapacitor.PluginMethod;
 import com.getcapacitor.annotation.CapacitorPlugin;
-import java.io.ByteArrayOutputStream;
-import java.io.InputStream;
 import java.io.OutputStream;
 import java.net.HttpURLConnection;
 import java.net.URL;
@@ -61,21 +59,16 @@ public class BugReportPlugin extends Plugin {
                 try (OutputStream out = connection.getOutputStream()) {
                     out.write(payload.toString().getBytes(StandardCharsets.UTF_8));
                 }
-                if (connection.getResponseCode() != HttpURLConnection.HTTP_CREATED) {
-                    throw new IllegalStateException("GitHub returned HTTP " + connection.getResponseCode());
-                }
-                String response;
-                try (InputStream input = connection.getInputStream(); ByteArrayOutputStream buffer = new ByteArrayOutputStream()) {
-                    byte[] chunk = new byte[4096];
-                    int count;
-                    while ((count = input.read(chunk)) != -1) buffer.write(chunk, 0, count);
-                    response = new String(buffer.toByteArray(), StandardCharsets.UTF_8);
+                int status = connection.getResponseCode();
+                if (status != HttpURLConnection.HTTP_CREATED) {
+                    call.reject("GitHub antwortete mit HTTP " + status);
+                    return;
                 }
                 JSObject result = new JSObject();
-                result.put("url", new JSONObject(response).getString("html_url"));
+                result.put("created", true);
                 call.resolve(result);
             } catch (Exception error) {
-                call.reject("Issue creation failed", error);
+                call.reject("Senden konnte nicht bestätigt werden", error);
             } finally {
                 if (connection != null) connection.disconnect();
             }
