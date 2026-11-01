@@ -11,6 +11,7 @@ colors:
   ink: "#25313a"
   muted-ink: "#53616b"
   plum: "#823b50"
+  plum-deep: "#6e2d40"
   plum-on: "#fff7ee"
   note: "#e3eff0"
   note-ink: "#284048"
@@ -38,6 +39,7 @@ rounded:
   paper-sheet: "12px"
   field: "9px"
   filter: "999px"
+  docked-control: "16px"
 spacing:
   page-x: "20px"
   page-top: "29px"
@@ -116,6 +118,8 @@ Papierflächen liegen mit einem leichten, nach unten versetzten Schatten auf dem
 ## Shapes
 
 Menüblätter und Panels haben 12 px Radius, Eingaben 9 px. Filter sind pillenförmig. Die dünne rosa Linie links im Menüblatt deutet eine Bindung an; sie ist ein Detail, keine Navigation oder Statusanzeige.
+
+Der kompakte Meldebutton ist 48 px groß. Er dockt bündig an der nächsten Kante an und hat dort gerade Ecken; die beiden freien Ecken haben 16 px Radius. Beim Ziehen folgt er mit einer gedämpften Feder und vergrößert sich kurz auf 106 %. Bei reduzierter Bewegung wechselt er ohne Federweg die Position.
 
 ## Components
 

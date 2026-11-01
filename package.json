@@ -1,7 +1,7 @@
 {
   "name": "cocktail-diary",
   "private": true,
-  "version": "0.2.0",
+  "version": "0.2.1",
   "type": "module",
   "scripts": {
     "web:build": "esbuild ./src/supabase-entry.js --bundle --format=esm --minify --outfile=./web/supabase-sdk.js",

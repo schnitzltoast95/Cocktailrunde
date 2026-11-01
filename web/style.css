@@ -11,6 +11,7 @@
   --text: #25313a;
   --muted: #53616b;
   --accent: #823b50;
+  --accent-deep: #6e2d40;
   --accent-text: #fff7ee;
   --note: #e3eff0;
   --note-ink: #284048;
@@ -113,9 +114,14 @@ dialog form { overflow: auto; max-height: min(90dvh, 800px); padding: 24px; }
 .primary-button { width: 100%; min-height: 50px; margin-top: 21px; border: 0; border-radius: 10px; background: var(--accent); color: var(--accent-text); font-weight: 750; }
 .primary-button:hover { background: #6e2d40; }
 
-.bug-button { position: fixed; z-index: 12; display: flex; align-items: center; justify-content: center; gap: 7px; min-width: 48px; height: 48px; padding: 0 14px; border: 1px solid #6e2d40; border-radius: 999px; background: var(--accent); color: var(--accent-text); box-shadow: 0 5px 17px rgba(37, 49, 58, .27); font-size: .81rem; font-weight: 700; touch-action: none; user-select: none; }
+.bug-button { position: fixed; z-index: 12; top: 0; left: 0; display: flex; align-items: center; justify-content: center; gap: 7px; min-width: 48px; height: 48px; padding: 0 14px; border: 1px solid var(--accent-deep); border-radius: 16px; background: var(--accent); color: var(--accent-text); box-shadow: 0 5px 17px rgba(37, 49, 58, .27); font-size: .81rem; font-weight: 700; touch-action: none; user-select: none; }
 .bug-button.compact { width: 48px; padding: 0; }
+.bug-button.compact[data-edge="left"] { border-left: 0; border-radius: 0 16px 16px 0; }
+.bug-button.compact[data-edge="right"] { border-right: 0; border-radius: 16px 0 0 16px; }
+.bug-button.compact[data-edge="top"] { border-top: 0; border-radius: 0 0 16px 16px; }
+.bug-button.compact[data-edge="bottom"] { border-bottom: 0; border-radius: 16px 16px 0 0; }
 .bug-button.compact span { display: none; }
+.bug-button.dragging { scale: 1.06; }
 .bug-button svg { width: 22px; height: 22px; flex: none; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
 #bug-dialog input { display: block; width: 100%; min-height: 48px; margin-bottom: 18px; padding: 0 13px; border: 1px solid var(--line); border-radius: 9px; background: var(--paper-raised); color: var(--text); }
 #bug-dialog textarea { width: 100%; }
@@ -168,4 +174,5 @@ dialog form { overflow: auto; max-height: min(90dvh, 800px); padding: 24px; }
 
 @media (prefers-reduced-motion: no-preference) {
   .filter-chip, .nav-item, .primary-button, .drink-row { transition: color .18s ease, background-color .18s ease, border-color .18s ease; }
+  .bug-button { transition: scale .22s cubic-bezier(.2, .8, .2, 1); }
 }
