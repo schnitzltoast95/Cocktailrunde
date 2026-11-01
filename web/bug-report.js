@@ -1,8 +1,9 @@
-import { cloud } from './sync.js';
+import { Capacitor, registerPlugin } from './supabase-sdk.js';
 
 const $ = (selector) => document.querySelector(selector);
 const STORAGE_KEY = 'cocktail-bug-button';
 const labels = { discover: 'Cocktailkarte', ratings: 'Meine Notizen', group: 'Gruppe' };
+const bugReport = registerPlugin('BugReport');
 const recentViews = ['discover'];
 let currentView = 'discover';
 
@@ -61,8 +62,6 @@ export function initBugReport(getDrinkName) {
       screen: labels[currentView],
       recentScreens: recentViews.map((view) => labels[view]),
       drink: $('#rating-dialog').open ? getDrinkName() : null,
-      appVersion: '0.1.0',
-      platform: navigator.userAgent.slice(0, 350),
     };
   }
 
@@ -71,7 +70,7 @@ export function initBugReport(getDrinkName) {
     form.reset();
     message.textContent = '';
     $('#send-bug').disabled = false;
-    $('#bug-context').textContent = `Mitgesendet: ${activeContext.screen}${activeContext.drink ? ` · ${activeContext.drink}` : ''}, letzte Ansichten und Geräteinformationen.`;
+    $('#bug-context').textContent = `Mitgesendet: ${activeContext.screen}${activeContext.drink ? ` · ${activeContext.drink}` : ''}, letzte Ansichten, Android-Version und Gerät.`;
     modal.showModal();
   }
 
@@ -119,17 +118,12 @@ export function initBugReport(getDrinkName) {
     event.preventDefault();
     if (!form.reportValidity()) return;
     if (!navigator.onLine) { message.textContent = 'Zum Senden brauchst du kurz Internet. Dein Text bleibt hier stehen.'; return; }
-    if (!cloud) { message.textContent = 'Der Fehlerbericht ist auf diesem Gerät nicht eingerichtet.'; return; }
-    const { data: { session } } = await cloud.auth.getSession();
-    if (!session) { message.textContent = 'Melde dich zuerst unter „Gruppe“ an. Dein Text bleibt hier stehen.'; return; }
+    if (!Capacitor.isNativePlatform()) { message.textContent = 'Das direkte Melden funktioniert in der Android-App. Dein Text bleibt hier stehen.'; return; }
     const submit = $('#send-bug');
     submit.disabled = true;
     message.textContent = 'Bericht wird gesendet …';
     try {
-      const { data, error } = await cloud.functions.invoke('report-bug', {
-        body: { title: $('#bug-summary').value.trim(), description: $('#bug-description').value.trim(), context: activeContext },
-      });
-      if (error) throw error;
+      const data = await bugReport.submit({ title: $('#bug-summary').value.trim(), description: $('#bug-description').value.trim(), context: activeContext });
       if (!data?.url) throw new Error('missing issue URL');
       message.textContent = 'Danke! Dein Fehlerbericht wurde als GitHub-Issue erstellt.';
       form.reset();
@@ -141,4 +135,10 @@ export function initBugReport(getDrinkName) {
   });
 
   setCompact(compact);
+  if (Capacitor.isNativePlatform()) {
+    bugReport.isConfigured().then(({ configured }) => {
+      button.hidden = !configured;
+      $('#bug-from-rating').hidden = !configured;
+    }).catch(() => { button.hidden = true; $('#bug-from-rating').hidden = true; });
+  }
 }

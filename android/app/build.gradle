@@ -6,6 +6,14 @@ if (releaseSigningFile.exists()) {
     releaseSigningFile.withInputStream { releaseSigning.load(it) }
 }
 
+def localBugReportProperties = new Properties()
+def localBugReportFile = rootProject.file('local.properties')
+if (localBugReportFile.exists()) {
+    localBugReportFile.withInputStream { localBugReportProperties.load(it) }
+}
+def bugReportToken = System.getenv('COCKTAIL_BUG_REPORT_TOKEN')?.trim()
+if (!bugReportToken) bugReportToken = localBugReportProperties.getProperty('cocktail.bugReportToken', '').trim()
+
 android {
     namespace = "app.friends.cocktails"
     compileSdk = rootProject.ext.compileSdkVersion
@@ -15,6 +23,7 @@ android {
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
         versionName "0.1.0"
+        resValue 'string', 'bug_report_token', bugReportToken
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         aaptOptions {
              // Files and dirs to omit from the packaged assets dir, modified to accommodate modern web apps.
@@ -38,6 +47,12 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
             if (releaseSigningFile.exists()) signingConfig signingConfigs.release
         }
+    }
+}
+
+tasks.matching { it.name == 'preReleaseBuild' }.configureEach {
+    doFirst {
+        check(bugReportToken) { 'Release build requires COCKTAIL_BUG_REPORT_TOKEN or cocktail.bugReportToken in android/local.properties.' }
     }
 }
 
