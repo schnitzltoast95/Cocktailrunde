@@ -1,4 +1,5 @@
 import { cloud, signUp, signIn, getGroups, pushRating, pullRatings, createInvite, joinByCode, getMembers, setMemberName, leaveGroup } from './sync.js';
+import { initBugReport, trackBugView } from './bug-report.js';
 
 const $ = (selector) => document.querySelector(selector);
 const catalogContent = $('#catalog-content');
@@ -100,6 +101,7 @@ function emptyState(title, copy) {
 }
 
 function showView(name) {
+  trackBugView(name);
   document.querySelectorAll('.view').forEach((view) => { view.hidden = view.id !== `${name}-view`; });
   document.querySelectorAll('.nav-item').forEach((button) => {
     const selected = button.dataset.view === name;
@@ -540,6 +542,7 @@ function updateConnection() {
 }
 
 async function init() {
+  initBugReport(() => activeCocktail?.name || null);
   renderDimensions();
   document.querySelectorAll('.nav-item').forEach((button) => button.addEventListener('click', () => showView(button.dataset.view)));
   $('#search').addEventListener('input', renderCatalog);

@@ -44,3 +44,9 @@ cd android
 ```
 
 The expected output is `android/app/build/outputs/apk/debug/app-debug.apk`. The release APK uses a local signing key under `.signing/`, which is excluded from Git and must be backed up separately. Build it with `cd android; .\gradlew.bat assembleRelease`. The resulting APK is under `android/app/build/outputs/apk/release/`. iOS packaging will require a Mac with Xcode.
+
+## Fehler melden
+
+The floating **Fehler melden** button opens an in-app report form. It can be dragged to a screen edge and switched between icon and text. The report includes the current view, up to six recent views, the open drink (if any), app version, and device user agent. Ratings, notes, email addresses, and passwords are not included automatically.
+
+The `report-bug` Supabase Edge Function creates an issue in `schnitzltoast95/Cocktailrunde`. It requires a signed-in group member. Deploy `supabase/functions/report-bug/index.ts` with JWT verification enabled. Set a Supabase Edge Function secret named `GITHUB_ISSUES_TOKEN` to a dedicated GitHub fine-grained personal access token limited to the Cocktailrunde repository with **Issues: Read and write**. The token must remain in Supabase Secrets and never be included in the Android app, Git repository, or screenshots. Without this secret the form shows a send error and no issue is created.

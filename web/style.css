@@ -113,6 +113,18 @@ dialog form { overflow: auto; max-height: min(90dvh, 800px); padding: 24px; }
 .primary-button { width: 100%; min-height: 50px; margin-top: 21px; border: 0; border-radius: 10px; background: var(--accent); color: var(--accent-text); font-weight: 750; }
 .primary-button:hover { background: #6e2d40; }
 
+.bug-button { position: fixed; z-index: 12; display: flex; align-items: center; justify-content: center; gap: 7px; min-width: 48px; height: 48px; padding: 0 14px; border: 1px solid #6e2d40; border-radius: 999px; background: var(--accent); color: var(--accent-text); box-shadow: 0 5px 17px rgba(37, 49, 58, .27); font-size: .81rem; font-weight: 700; touch-action: none; user-select: none; }
+.bug-button.compact { width: 48px; padding: 0; }
+.bug-button.compact span { display: none; }
+.bug-button svg { width: 22px; height: 22px; flex: none; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+#bug-dialog input { display: block; width: 100%; min-height: 48px; margin-bottom: 18px; padding: 0 13px; border: 1px solid var(--line); border-radius: 9px; background: var(--paper-raised); color: var(--text); }
+#bug-dialog textarea { width: 100%; }
+.bug-intro { margin: -10px 0 20px; color: var(--muted); font-size: .9rem; line-height: 1.5; }
+.bug-context { margin: 12px 0 0; color: var(--muted); font-size: .78rem; line-height: 1.4; }
+#bug-message { min-height: 1.4em; margin: 12px 0 0; }
+.bug-size { display: block; margin: 16px auto 0; }
+.bug-from-rating { margin: -17px 0 15px; font-size: .8rem; }
+
 .group-panel { padding: 20px; border-radius: 12px; background: var(--paper); }
 .group-panel + .group-panel { margin-top: 16px; }
 .group-panel h2 { margin: 0 0 8px; font-size: 1.14rem; }

@@ -7,7 +7,7 @@
   <meta name="description" content="Cocktails wiederfinden und bewerten, auch ohne Internet.">
   <link rel="manifest" href="./manifest.webmanifest">
   <link rel="icon" href="./icon.svg?v=3" type="image/svg+xml">
-  <link rel="stylesheet" href="./style.css?v=16">
+  <link rel="stylesheet" href="./style.css?v=17">
   <title>Cocktailrunde</title>
 </head>
 <body>
@@ -89,9 +89,27 @@
     </nav>
   </div>
 
+  <button id="bug-button" class="bug-button" type="button" aria-label="Fehler melden" title="Fehler melden"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 8 5.5 5.5M16 8l2.5-2.5M4 12h4m8 0h4M6 18l2.5-2.5M18 18l-2.5-2.5M12 5a4 4 0 0 0-4 4v5a4 4 0 0 0 8 0V9a4 4 0 0 0-4-4Z"/></svg><span>Fehler melden</span></button>
+
+  <dialog id="bug-dialog" aria-labelledby="bug-title">
+    <form id="bug-form">
+      <div class="dialog-top"><div><p class="dialog-bar">Cocktailrunde</p><h2 id="bug-title">Fehler melden</h2></div><button class="icon-button" type="button" id="close-bug" aria-label="Schließen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 5 19 19M19 5 5 19"/></svg></button></div>
+      <p class="bug-intro">Was hat nicht funktioniert? Die aktuelle Ansicht und Geräteinformationen helfen uns, den Fehler zu finden.</p>
+      <label class="field-label" for="bug-summary">Kurzer Titel</label>
+      <input id="bug-summary" name="summary" type="text" maxlength="120" required placeholder="Zum Beispiel: Bewertung lässt sich nicht speichern">
+      <label class="field-label" for="bug-description">Was ist passiert?</label>
+      <textarea id="bug-description" name="description" rows="5" maxlength="5000" required placeholder="Was hast du gemacht und was hast du erwartet?"></textarea>
+      <p id="bug-context" class="bug-context"></p>
+      <p id="bug-message" class="group-message" role="status"></p>
+      <button id="send-bug" class="primary-button" type="submit">Bericht senden</button>
+      <button id="bug-button-size" class="text-button bug-size" type="button">Button mit Text anzeigen</button>
+    </form>
+  </dialog>
+
   <dialog id="rating-dialog" aria-labelledby="rating-title">
     <form id="rating-form" method="dialog">
       <div class="dialog-top"><div><p class="dialog-bar" id="rating-bar"></p><h2 id="rating-title"></h2></div><button class="icon-button" type="button" id="close-dialog" aria-label="Schließen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 5 19 19M19 5 5 19"/></svg></button></div>
+      <button id="bug-from-rating" class="text-button bug-from-rating" type="button">Fehler in dieser Ansicht melden</button>
       <section id="drink-notes" class="dialog-notes" hidden aria-labelledby="drink-notes-title"><h3 id="drink-notes-title">Eure Notizen</h3><div id="drink-notes-list"></div></section>
       <label class="field-label" for="liked">Wie war er insgesamt?</label>
       <select id="liked" name="liked" required><option value="">Bitte wählen</option><option value="yes">Hat geschmeckt</option><option value="mixed">War okay</option><option value="no">Nicht mein Fall</option></select>
@@ -104,6 +122,6 @@
     </form>
   </dialog>
 
-  <script type="module" src="./app.js?v=14"></script>
+  <script type="module" src="./app.js?v=15"></script>
 </body>
 </html>
