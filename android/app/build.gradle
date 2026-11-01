@@ -21,8 +21,8 @@ android {
         applicationId "app.friends.cocktails"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
-        versionCode 1
-        versionName "0.1.0"
+        versionCode 2
+        versionName "0.2.0"
         resValue 'string', 'bug_report_token', bugReportToken
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         aaptOptions {
@@ -52,7 +52,9 @@ android {
 
 tasks.matching { it.name == 'preReleaseBuild' }.configureEach {
     doFirst {
-        check(bugReportToken) { 'Release build requires COCKTAIL_BUG_REPORT_TOKEN or cocktail.bugReportToken in android/local.properties.' }
+        if (!bugReportToken) {
+            throw new GradleException('Release build requires COCKTAIL_BUG_REPORT_TOKEN or cocktail.bugReportToken in android/local.properties.')
+        }
     }
 }
 
